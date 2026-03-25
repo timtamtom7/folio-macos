@@ -7,206 +7,219 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F6923A4ED225B18C515809 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813FDB0D773A3CFABE87B1A /* DatabaseManager.swift */; };
-		20854428F3D953EEF123286F /* MenuBarExtraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAAC7FFEE01C19D4C193091 /* MenuBarExtraView.swift */; };
-		252E2805F9DCFB7FB289828F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B72A15ABFCA639E17045E /* AppDelegate.swift */; };
-		32E369A958D3FD99D8FBD674 /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998F845EB02AE81EEE9D8DD /* FeedService.swift */; };
-		54BEA1F6BD0824F49E1CB2AE /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88864365471EFA16CCF6D209 /* SidebarView.swift */; };
-		5D66D20231FB94CF147E9066 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 854F6180DBE049541E1D64CE /* SQLite */; };
-		67CCE0A5B8A3B6D30755169C /* FeedKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD6FEECC0BA10B321803869 /* FeedKit */; };
-		736F39CDED0BC56262A25152 /* FOLIOAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E7CB9C46482E51113037EA /* FOLIOAppState.swift */; };
-		83B31BDE23A1E271137AEE14 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA636AE3CF37C409DF33AEB /* Feed.swift */; };
-		8C6A194E254FA38CCFE45F59 /* FOLIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93124E83FCA1889525137D8 /* FOLIOApp.swift */; };
-		92E75A91BEBE3AE475F569AA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E3384991ABD46C171A4BF /* main.swift */; };
-		9EF8C16677251C0ED1948E82 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54A139AF02A8B272A50FC7 /* Article.swift */; };
-		9FE3982818325899BB2C8510 /* SQLiteArticleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E18B439B5473A4F8962FB4A /* SQLiteArticleStore.swift */; };
-		AD4D92C3B6A8CB02D3023F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343619B93DEBFC76EC2DB7AA /* ContentView.swift */; };
-		B269F71F3F1F96D32A85C579 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB1267918657E90AD9F43AB /* Category.swift */; };
-		B589D7C031675E6E6AAF8D65 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4A9A8F372D314A35FC541BA7 /* Kingfisher */; };
-		B67292EAE8BB0F63FA0D256F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31EC83ACB7A95F11A30F677 /* Theme.swift */; };
-		C21B77A106A4D36BC4D00BA4 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD32C27DB37099A37DF79E5 /* ArticleRowView.swift */; };
-		C34FD83CDCA0E57E0D7C0332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88009D2035D340F5A7AC356E /* Assets.xcassets */; };
-		CD461205D0CC09CE11B0AA08 /* AddFeedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FA90D1FAAA31F661F90912 /* AddFeedSheet.swift */; };
-		D76A98654BCDCF0D20D71CD7 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFB1B8106D1576A3A73C08C /* ArticleListView.swift */; };
-		E0355588DC291BFD6A4E04A6 /* SQLiteFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786590F3D668FA0F911DB50 /* SQLiteFeedStore.swift */; };
+		013FA9C1884D511BE57769F4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */; };
+		0A137869A6D9839F51B2723E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE6AAD378492ABEC464D8F18 /* Kingfisher */; };
+		0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F43FCCCEB6F214331FE14 /* SidebarView.swift */; };
+		13D84A24E262777DC2D597C2 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */; };
+		3093D44159749012BA7996B2 /* CategoryEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */; };
+		312C1CA6E2BA93D6B46078D4 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA6B3A012C974B636B014A8 /* ReaderView.swift */; };
+		42782E3391AD7E782CCB3F1F /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C59388C738863D0D800AEE /* MainWindowController.swift */; };
+		46C63052E814155C513A72BF /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F5F262B441646B2E3F49D /* ArticleListView.swift */; };
+		500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */; };
+		517059BAFB085058C271C9C0 /* AddFeedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */; };
+		5D75131402362BC02435F9D8 /* MenuBarExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */; };
+		6629BE250B8B84FDF54EDE2C /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24603462DB332F4E7940DE1 /* FeedService.swift */; };
+		6E8DB3A6E242F3557048EC20 /* SQLiteArticleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */; };
+		7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBD37837F5AF0DAC88E483 /* Feed.swift */; };
+		73FD7F6D509A92AA8F57B83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */; };
+		76A412DE974F2464B11901B3 /* SQLiteFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */; };
+		7EDB70AD75830AFA7F541DCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C73C2B8465DACDADF9E035E /* ContentView.swift */; };
+		8256B28888B6D59B6BB75D9B /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6417E3917AA188582C850D70 /* ArticleRowView.swift */; };
+		8D6F7215AB1C4B3E297374A3 /* FOLIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D28D0A741C67B225F4AA79 /* FOLIOApp.swift */; };
+		8F9D791A547313EE72A54399 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0AA69AC2AB3A8E038EE44 /* main.swift */; };
+		95C7C6702C605C3AB77FCED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05059519A242EC0575531025 /* Assets.xcassets */; };
+		ABB8DE25950939BC6B62D59F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229AE734CBF49FD92554CA59 /* Category.swift */; };
+		BC35A1B443DE91BC953CF483 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 2EA19170CCB84F02A15570B5 /* SQLite */; };
+		C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */; };
+		E47DEA3575A2E17400282AED /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D01638D8358995578A2473 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0786590F3D668FA0F911DB50 /* SQLiteFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteFeedStore.swift; sourceTree = "<group>"; };
-		08EF53B7EB419DF8927845FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		0BFB1B8106D1576A3A73C08C /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
-		24FA90D1FAAA31F661F90912 /* AddFeedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedSheet.swift; sourceTree = "<group>"; };
-		343619B93DEBFC76EC2DB7AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3B8E3384991ABD46C171A4BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3D3B72A15ABFCA639E17045E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E18B439B5473A4F8962FB4A /* SQLiteArticleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteArticleStore.swift; sourceTree = "<group>"; };
-		4A54A139AF02A8B272A50FC7 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		5B8BAAD0990BFEBF5AC22207 /* Folio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Folio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BA636AE3CF37C409DF33AEB /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
-		7813FDB0D773A3CFABE87B1A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		88009D2035D340F5A7AC356E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		88864365471EFA16CCF6D209 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
-		94F3D077BB11F231AFA6B552 /* Folio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Folio.entitlements; sourceTree = "<group>"; };
-		9AAAC7FFEE01C19D4C193091 /* MenuBarExtraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraView.swift; sourceTree = "<group>"; };
-		9FD32C27DB37099A37DF79E5 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
-		A998F845EB02AE81EEE9D8DD /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
-		AAB1267918657E90AD9F43AB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		D31EC83ACB7A95F11A30F677 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		D93124E83FCA1889525137D8 /* FOLIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOApp.swift; sourceTree = "<group>"; };
-		E7E7CB9C46482E51113037EA /* FOLIOAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOAppState.swift; sourceTree = "<group>"; };
+		01DD2554AC92346694F972BB /* FOLIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOLIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05059519A242EC0575531025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
+		104F43FCCCEB6F214331FE14 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		229AE734CBF49FD92554CA59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		24D01638D8358995578A2473 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteArticleStore.swift; sourceTree = "<group>"; };
+		3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtra.swift; sourceTree = "<group>"; };
+		3FC8820A31E55818CABA65A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C73C2B8465DACDADF9E035E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOAppState.swift; sourceTree = "<group>"; };
+		556F5F262B441646B2E3F49D /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditorSheet.swift; sourceTree = "<group>"; };
+		6417E3917AA188582C850D70 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
+		64C0AA69AC2AB3A8E038EE44 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8CA6B3A012C974B636B014A8 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedSheet.swift; sourceTree = "<group>"; };
+		C4FBD37837F5AF0DAC88E483 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		D24603462DB332F4E7940DE1 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
+		DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		DFBE51CA12A22570369581B2 /* FOLIO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FOLIO.entitlements; sourceTree = "<group>"; };
+		F5D28D0A741C67B225F4AA79 /* FOLIOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOApp.swift; sourceTree = "<group>"; };
+		F6C59388C738863D0D800AEE /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DDB037244D0F79104ADBCB6 /* Frameworks */ = {
+		886162F46F83BF71C32B678B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D66D20231FB94CF147E9066 /* SQLite in Frameworks */,
-				67CCE0A5B8A3B6D30755169C /* FeedKit in Frameworks */,
-				B589D7C031675E6E6AAF8D65 /* Kingfisher in Frameworks */,
+				BC35A1B443DE91BC953CF483 /* SQLite in Frameworks */,
+				0A137869A6D9839F51B2723E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		167E3E30A49919FD8D56D74D = {
+		17E21CC04AE714570265D98C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				AF4336CA5B027C5A58362B48 /* FOLIO */,
-				62523BE78BDC40FAA03B8BBD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		28BDEF678F19C25B53DF3BA8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4A54A139AF02A8B272A50FC7 /* Article.swift */,
-				AAB1267918657E90AD9F43AB /* Category.swift */,
-				6BA636AE3CF37C409DF33AEB /* Feed.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		307B5BA5614F9BA9C6879B36 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		475C0816D9C31A7DF9804FC9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				88009D2035D340F5A7AC356E /* Assets.xcassets */,
-				94F3D077BB11F231AFA6B552 /* Folio.entitlements */,
-				08EF53B7EB419DF8927845FB /* Info.plist */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		62523BE78BDC40FAA03B8BBD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5B8BAAD0990BFEBF5AC22207 /* Folio.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		837C4248072F626C6A0B7BCA /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				7813FDB0D773A3CFABE87B1A /* DatabaseManager.swift */,
-				A998F845EB02AE81EEE9D8DD /* FeedService.swift */,
-				3E18B439B5473A4F8962FB4A /* SQLiteArticleStore.swift */,
-				0786590F3D668FA0F911DB50 /* SQLiteFeedStore.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		976D6D664F1E2FCFE44153AB /* App */ = {
-			isa = PBXGroup;
-			children = (
-				3D3B72A15ABFCA639E17045E /* AppDelegate.swift */,
-				D93124E83FCA1889525137D8 /* FOLIOApp.swift */,
-				E7E7CB9C46482E51113037EA /* FOLIOAppState.swift */,
-				3B8E3384991ABD46C171A4BF /* main.swift */,
+				5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */,
+				F5D28D0A741C67B225F4AA79 /* FOLIOApp.swift */,
+				508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */,
+				64C0AA69AC2AB3A8E038EE44 /* main.swift */,
+				F6C59388C738863D0D800AEE /* MainWindowController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		A3CC837A092022B74EFC0911 /* MenuBar */ = {
+		2310ACF5D97176D9027E4C8C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				9AAAC7FFEE01C19D4C193091 /* MenuBarExtraView.swift */,
+				DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */,
+				0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32F75244135EF6E18C98A1C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */,
+				556F5F262B441646B2E3F49D /* ArticleListView.swift */,
+				6417E3917AA188582C850D70 /* ArticleRowView.swift */,
+				5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */,
+				4C73C2B8465DACDADF9E035E /* ContentView.swift */,
+				8CA6B3A012C974B636B014A8 /* ReaderView.swift */,
+				104F43FCCCEB6F214331FE14 /* SidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		656066A0DF5F322F698CB47A /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */,
 			);
 			path = MenuBar;
 			sourceTree = "<group>";
 		};
-		AF4336CA5B027C5A58362B48 /* FOLIO */ = {
+		7F32E655C6993B7370E3AB82 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				976D6D664F1E2FCFE44153AB /* App */,
-				A3CC837A092022B74EFC0911 /* MenuBar */,
-				28BDEF678F19C25B53DF3BA8 /* Models */,
-				475C0816D9C31A7DF9804FC9 /* Resources */,
-				837C4248072F626C6A0B7BCA /* Services */,
-				307B5BA5614F9BA9C6879B36 /* ViewModels */,
-				FC5CCB6853BC12E50E746F92 /* Views */,
+				24D01638D8358995578A2473 /* Article.swift */,
+				229AE734CBF49FD92554CA59 /* Category.swift */,
+				C4FBD37837F5AF0DAC88E483 /* Feed.swift */,
 			);
-			path = FOLIO;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		FC5CCB6853BC12E50E746F92 /* Views */ = {
+		9004A42151081D0D09FE085F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24FA90D1FAAA31F661F90912 /* AddFeedSheet.swift */,
-				0BFB1B8106D1576A3A73C08C /* ArticleListView.swift */,
-				9FD32C27DB37099A37DF79E5 /* ArticleRowView.swift */,
-				343619B93DEBFC76EC2DB7AA /* ContentView.swift */,
-				88864365471EFA16CCF6D209 /* SidebarView.swift */,
-				D31EC83ACB7A95F11A30F677 /* Theme.swift */,
+				01DD2554AC92346694F972BB /* FOLIO.app */,
 			);
-			path = Views;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C0B8D48A1537F09FE15BE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05059519A242EC0575531025 /* Assets.xcassets */,
+				DFBE51CA12A22570369581B2 /* FOLIO.entitlements */,
+				3FC8820A31E55818CABA65A4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D2CF1789C15E1E44FD1A456B = {
+			isa = PBXGroup;
+			children = (
+				D5AD8EC9D739AF9DB264AB84 /* Sources */,
+				9004A42151081D0D09FE085F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5AD8EC9D739AF9DB264AB84 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				17E21CC04AE714570265D98C /* App */,
+				656066A0DF5F322F698CB47A /* MenuBar */,
+				7F32E655C6993B7370E3AB82 /* Models */,
+				C1C0B8D48A1537F09FE15BE4 /* Resources */,
+				E888D94ABE450DF009736316 /* Services */,
+				2310ACF5D97176D9027E4C8C /* ViewModels */,
+				32F75244135EF6E18C98A1C9 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E888D94ABE450DF009736316 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */,
+				D24603462DB332F4E7940DE1 /* FeedService.swift */,
+				37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */,
+				FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C56AF64BE26DB444D566E60 /* Folio */ = {
+		97F3FAA3C91C128FE7E23D88 /* FOLIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 053AAE1D1B4F8AD6CAC8296F /* Build configuration list for PBXNativeTarget "Folio" */;
+			buildConfigurationList = ED01A23767C79EFFC1D9855F /* Build configuration list for PBXNativeTarget "FOLIO" */;
 			buildPhases = (
-				3859F542EDB723E250691952 /* Sources */,
-				8AF20F2D7ED0809F38E8AD11 /* Resources */,
-				9DDB037244D0F79104ADBCB6 /* Frameworks */,
+				216F6CF35118E1B8CF159A34 /* Sources */,
+				9F466AA84A6CE3D7C9846E51 /* Resources */,
+				886162F46F83BF71C32B678B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Folio;
+			name = FOLIO;
 			packageProductDependencies = (
-				854F6180DBE049541E1D64CE /* SQLite */,
-				0BD6FEECC0BA10B321803869 /* FeedKit */,
-				4A9A8F372D314A35FC541BA7 /* Kingfisher */,
+				2EA19170CCB84F02A15570B5 /* SQLite */,
+				DE6AAD378492ABEC464D8F18 /* Kingfisher */,
 			);
-			productName = Folio;
-			productReference = 5B8BAAD0990BFEBF5AC22207 /* Folio.app */;
+			productName = FOLIO;
+			productReference = 01DD2554AC92346694F972BB /* FOLIO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		383A8F7C70F35B855AA13D98 /* Project object */ = {
+		4F46788F8A4B1FAA072427FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					97F3FAA3C91C128FE7E23D88 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
-			buildConfigurationList = 337CB635EA8B81A92F1BCDDC /* Build configuration list for PBXProject "Folio" */;
+			buildConfigurationList = 9BD9B4737DB78D431428C3D2 /* Build configuration list for PBXProject "FOLIO" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,77 +227,142 @@
 				Base,
 				en,
 			);
-			mainGroup = 167E3E30A49919FD8D56D74D;
+			mainGroup = D2CF1789C15E1E44FD1A456B;
 			packageReferences = (
-				02F41FA912CED4E4A7CABBA0 /* XCRemoteSwiftPackageReference "FeedKit" */,
-				66ABF8A7A7DB10FA4D07B882 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				A16D2E2666E921B85F9C5577 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				4589FB2A2973C9B3AFFD95D4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D4A106ADB502AC608D27E93E /* XCRemoteSwiftPackageReference "SQLite.swift" */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C56AF64BE26DB444D566E60 /* Folio */,
+				97F3FAA3C91C128FE7E23D88 /* FOLIO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8AF20F2D7ED0809F38E8AD11 /* Resources */ = {
+		9F466AA84A6CE3D7C9846E51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34FD83CDCA0E57E0D7C0332 /* Assets.xcassets in Resources */,
+				95C7C6702C605C3AB77FCED5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3859F542EDB723E250691952 /* Sources */ = {
+		216F6CF35118E1B8CF159A34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD461205D0CC09CE11B0AA08 /* AddFeedSheet.swift in Sources */,
-				252E2805F9DCFB7FB289828F /* AppDelegate.swift in Sources */,
-				9EF8C16677251C0ED1948E82 /* Article.swift in Sources */,
-				D76A98654BCDCF0D20D71CD7 /* ArticleListView.swift in Sources */,
-				C21B77A106A4D36BC4D00BA4 /* ArticleRowView.swift in Sources */,
-				B269F71F3F1F96D32A85C579 /* Category.swift in Sources */,
-				AD4D92C3B6A8CB02D3023F65 /* ContentView.swift in Sources */,
-				00F6923A4ED225B18C515809 /* DatabaseManager.swift in Sources */,
-				8C6A194E254FA38CCFE45F59 /* FOLIOApp.swift in Sources */,
-				736F39CDED0BC56262A25152 /* FOLIOAppState.swift in Sources */,
-				83B31BDE23A1E271137AEE14 /* Feed.swift in Sources */,
-				32E369A958D3FD99D8FBD674 /* FeedService.swift in Sources */,
-				20854428F3D953EEF123286F /* MenuBarExtraView.swift in Sources */,
-				9FE3982818325899BB2C8510 /* SQLiteArticleStore.swift in Sources */,
-				E0355588DC291BFD6A4E04A6 /* SQLiteFeedStore.swift in Sources */,
-				54BEA1F6BD0824F49E1CB2AE /* SidebarView.swift in Sources */,
-				B67292EAE8BB0F63FA0D256F /* Theme.swift in Sources */,
-				92E75A91BEBE3AE475F569AA /* main.swift in Sources */,
+				517059BAFB085058C271C9C0 /* AddFeedSheet.swift in Sources */,
+				73FD7F6D509A92AA8F57B83A /* AppDelegate.swift in Sources */,
+				E47DEA3575A2E17400282AED /* Article.swift in Sources */,
+				46C63052E814155C513A72BF /* ArticleListView.swift in Sources */,
+				13D84A24E262777DC2D597C2 /* ArticleListViewModel.swift in Sources */,
+				8256B28888B6D59B6BB75D9B /* ArticleRowView.swift in Sources */,
+				ABB8DE25950939BC6B62D59F /* Category.swift in Sources */,
+				3093D44159749012BA7996B2 /* CategoryEditorSheet.swift in Sources */,
+				7EDB70AD75830AFA7F541DCE /* ContentView.swift in Sources */,
+				013FA9C1884D511BE57769F4 /* DatabaseManager.swift in Sources */,
+				8D6F7215AB1C4B3E297374A3 /* FOLIOApp.swift in Sources */,
+				500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */,
+				7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */,
+				C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */,
+				6629BE250B8B84FDF54EDE2C /* FeedService.swift in Sources */,
+				42782E3391AD7E782CCB3F1F /* MainWindowController.swift in Sources */,
+				5D75131402362BC02435F9D8 /* MenuBarExtra.swift in Sources */,
+				312C1CA6E2BA93D6B46078D4 /* ReaderView.swift in Sources */,
+				6E8DB3A6E242F3557048EC20 /* SQLiteArticleStore.swift in Sources */,
+				76A412DE974F2464B11901B3 /* SQLiteFeedStore.swift in Sources */,
+				0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */,
+				8F9D791A547313EE72A54399 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1F56EB963860C7169EDF99BD /* Release */ = {
+		1CB133E8ACA29064FE02B89C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FOLIO/Resources/Folio.entitlements;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = FOLIO/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.folio.app;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 5.9;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		D3B08A16EE8A1254AC557B5A /* Debug */ = {
+		4FAE5D3CF8322C457691D8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Resources/FOLIO.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sources/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.folio.app;
+				PRODUCT_NAME = FOLIO;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		520772665702A80AB0E19ADC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,95 +425,45 @@
 			};
 			name = Debug;
 		};
-		DA92BB9625393CF84A265C86 /* Debug */ = {
+		A92C086692C00A4E30321B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = FOLIO/Resources/Folio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Sources/Resources/FOLIO.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = FOLIO/Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Sources/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.folio.app;
+				PRODUCT_NAME = FOLIO;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.9;
-			};
-			name = Debug;
-		};
-		E8BDB5BE91E7E273FFFF319A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		053AAE1D1B4F8AD6CAC8296F /* Build configuration list for PBXNativeTarget "Folio" */ = {
+		9BD9B4737DB78D431428C3D2 /* Build configuration list for PBXProject "FOLIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA92BB9625393CF84A265C86 /* Debug */,
-				1F56EB963860C7169EDF99BD /* Release */,
+				520772665702A80AB0E19ADC /* Debug */,
+				1CB133E8ACA29064FE02B89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		337CB635EA8B81A92F1BCDDC /* Build configuration list for PBXProject "Folio" */ = {
+		ED01A23767C79EFFC1D9855F /* Build configuration list for PBXNativeTarget "FOLIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3B08A16EE8A1254AC557B5A /* Debug */,
-				E8BDB5BE91E7E273FFFF319A /* Release */,
+				4FAE5D3CF8322C457691D8E1 /* Debug */,
+				A92C086692C00A4E30321B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -443,49 +471,36 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		02F41FA912CED4E4A7CABBA0 /* XCRemoteSwiftPackageReference "FeedKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nmdias/FeedKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.1.2;
-			};
-		};
-		66ABF8A7A7DB10FA4D07B882 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		4589FB2A2973C9B3AFFD95D4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.10.0;
+				minimumVersion = 7.0.0;
 			};
 		};
-		A16D2E2666E921B85F9C5577 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+		D4A106ADB502AC608D27E93E /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.14.1;
+				minimumVersion = 0.14.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0BD6FEECC0BA10B321803869 /* FeedKit */ = {
+		2EA19170CCB84F02A15570B5 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 02F41FA912CED4E4A7CABBA0 /* XCRemoteSwiftPackageReference "FeedKit" */;
-			productName = FeedKit;
-		};
-		4A9A8F372D314A35FC541BA7 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 66ABF8A7A7DB10FA4D07B882 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		854F6180DBE049541E1D64CE /* SQLite */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A16D2E2666E921B85F9C5577 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			package = D4A106ADB502AC608D27E93E /* XCRemoteSwiftPackageReference "SQLite.swift" */;
 			productName = SQLite;
+		};
+		DE6AAD378492ABEC464D8F18 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4589FB2A2973C9B3AFFD95D4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 383A8F7C70F35B855AA13D98 /* Project object */;
+	rootObject = 4F46788F8A4B1FAA072427FA /* Project object */;
 }
