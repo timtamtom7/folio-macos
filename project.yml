@@ -1,0 +1,43 @@
+name: Folio
+options:
+  bundleIdPrefix: com.folio
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  createIntermediateGroups: true
+
+packages:
+  SQLite:
+    url: https://github.com/stephencelis/SQLite.swift
+    from: "0.14.1"
+  FeedKit:
+    url: https://github.com/nmdias/FeedKit
+    from: "9.1.2"
+  Kingfisher:
+    url: https://github.com/onevcat/Kingfisher
+    from: "7.10.0"
+
+targets:
+  Folio:
+    type: application
+    platform: macOS
+    sources:
+      - path: FOLIO
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.folio.app
+        INFOPLIST_FILE: FOLIO/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: FOLIO/Resources/Folio.entitlements
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        SWIFT_VERSION: "5.9"
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+        ENABLE_HARDENED_RUNTIME: YES
+    dependencies:
+      - package: SQLite
+      - package: FeedKit
+      - package: Kingfisher
