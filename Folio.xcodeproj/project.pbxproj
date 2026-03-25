@@ -32,6 +32,7 @@
 		42782E3391AD7E782CCB3F1F /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C59388C738863D0D800AEE /* MainWindowController.swift */; };
 		46C63052E814155C513A72BF /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F5F262B441646B2E3F49D /* ArticleListView.swift */; };
 		4AD6AAC24DCE98E3BD3EB2B9 /* SharedFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5023821FF67F28A406B5E98 /* SharedFeedService.swift */; };
+		4CEB21CEA379BEB5ED4521B4 /* SubscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96654A300F718548E6EE527 /* SubscriptionService.swift */; };
 		500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */; };
 		517059BAFB085058C271C9C0 /* AddFeedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */; };
 		57B1F9AB26703B9507620C4D /* FeedDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E604B8A73179CAD1416E9F /* FeedDiscoveryService.swift */; };
@@ -46,6 +47,7 @@
 		7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBD37837F5AF0DAC88E483 /* Feed.swift */; };
 		73FD7F6D509A92AA8F57B83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */; };
 		76A412DE974F2464B11901B3 /* SQLiteFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */; };
+		7AD46014A7D1254BCD4C70FA /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADDD2BD1C996EDFE3F152 /* APIService.swift */; };
 		7E5145F73AA730FA49E11835 /* AnnotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71442C5DFC4893056549F2 /* AnnotationViewModel.swift */; };
 		7EDB70AD75830AFA7F541DCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C73C2B8465DACDADF9E035E /* ContentView.swift */; };
 		802D9E6B174D0EE98DCA717B /* FeedbinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E518C595C956B06651A2245 /* FeedbinService.swift */; };
@@ -76,6 +78,7 @@
 		C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */; };
 		C543CE1572F3206A64DC4C3E /* FeedDiscoverySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52471C9E8B81972A1D7E8B /* FeedDiscoverySheet.swift */; };
 		D2E366D88E92DADB0632EB3F /* TeamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5DCDFC7706E0B27830F0C9 /* TeamService.swift */; };
+		DCED639BEDF9C4002366D8E5 /* FOLIOCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EAB68CB7E0BAE94CFD476A /* FOLIOCLI.swift */; };
 		E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9161B7C6F540A265BFCA6F /* FavoritesViewModel.swift */; };
 		E1BED32D3914B52173BACB77 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354CD3DF230D378C21F20E5 /* AnalyticsService.swift */; };
 		E25B21A67404DF864027A0A8 /* FilterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694C1951966705099DE81F0 /* FilterRule.swift */; };
@@ -141,6 +144,7 @@
 		B1C3751E52820566E3B85889 /* SyncStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncStatusView.swift; sourceTree = "<group>"; };
 		B498BFD3943B970B50457443 /* ContentExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentExtractor.swift; sourceTree = "<group>"; };
 		B5589E97180F91135D4A0B27 /* iCloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncService.swift; sourceTree = "<group>"; };
+		B96654A300F718548E6EE527 /* SubscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionService.swift; sourceTree = "<group>"; };
 		BA9161B7C6F540A265BFCA6F /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		BC0CF026D5D3267D37301ECD /* AnnotationPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPanelView.swift; sourceTree = "<group>"; };
 		BCDCDF7010DE565C0F6A65E8 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
@@ -150,9 +154,11 @@
 		C5023821FF67F28A406B5E98 /* SharedFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFeedService.swift; sourceTree = "<group>"; };
 		C5A6711EC4FD82044B608EFA /* AccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewModel.swift; sourceTree = "<group>"; };
 		CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		CE1ADDD2BD1C996EDFE3F152 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		D24603462DB332F4E7940DE1 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
 		D8A90DE9916038EFD58B4D5E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		D8E5004AA76ECEFA9EAD601B /* InstapaperImportSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstapaperImportSheet.swift; sourceTree = "<group>"; };
+		D8EAB68CB7E0BAE94CFD476A /* FOLIOCLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOCLI.swift; sourceTree = "<group>"; };
 		DC8B02DD5F7642FD9EEF5046 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
 		DD2C4A3214118D58EE2F57FF /* FeedAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAggregator.swift; sourceTree = "<group>"; };
 		DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
@@ -241,6 +247,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		36FCD8B77674C89F1AF78073 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				D8EAB68CB7E0BAE94CFD476A /* FOLIOCLI.swift */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
 		656066A0DF5F322F698CB47A /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				17E21CC04AE714570265D98C /* App */,
+				36FCD8B77674C89F1AF78073 /* CLI */,
 				2B7F1AB9A9EF40ADC3E9AF74 /* Intents */,
 				656066A0DF5F322F698CB47A /* MenuBar */,
 				7F32E655C6993B7370E3AB82 /* Models */,
@@ -317,6 +332,7 @@
 			children = (
 				E354CD3DF230D378C21F20E5 /* AnalyticsService.swift */,
 				49BA831792A7D60F2453BCF9 /* AnnotationService.swift */,
+				CE1ADDD2BD1C996EDFE3F152 /* APIService.swift */,
 				39140242EA03A9A3ACE243C5 /* ArticleSearchService.swift */,
 				53F7DDFE4E08C3857E3E56EE /* BackgroundRefreshService.swift */,
 				4772456AD50A1CBFEAD47419 /* BackupService.swift */,
@@ -342,6 +358,7 @@
 				DE2FB177F27EEBE3F7960CCF /* ShareService.swift */,
 				37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */,
 				FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */,
+				B96654A300F718548E6EE527 /* SubscriptionService.swift */,
 				2C7A533634716B8737054272 /* SummarizationService.swift */,
 				7836931BA9EFB5B4E36ED925 /* TagService.swift */,
 				1F5DCDFC7706E0B27830F0C9 /* TeamService.swift */,
@@ -430,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD46014A7D1254BCD4C70FA /* APIService.swift in Sources */,
 				9487D3C2BE78E10D832C312F /* AccountsViewModel.swift in Sources */,
 				517059BAFB085058C271C9C0 /* AddFeedSheet.swift in Sources */,
 				E1BED32D3914B52173BACB77 /* AnalyticsService.swift in Sources */,
@@ -453,6 +471,7 @@
 				013FA9C1884D511BE57769F4 /* DatabaseManager.swift in Sources */,
 				8D6F7215AB1C4B3E297374A3 /* FOLIOApp.swift in Sources */,
 				500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */,
+				DCED639BEDF9C4002366D8E5 /* FOLIOCLI.swift in Sources */,
 				88EB92A7E7C6F2834CF0EF7D /* FOLIOIntents.swift in Sources */,
 				E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */,
 				7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */,
@@ -493,6 +512,7 @@
 				FB165CFFC00B6419CD052F4F /* SharedFeed.swift in Sources */,
 				4AD6AAC24DCE98E3BD3EB2B9 /* SharedFeedService.swift in Sources */,
 				0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */,
+				4CEB21CEA379BEB5ED4521B4 /* SubscriptionService.swift in Sources */,
 				66501376014134089375C449 /* SummarizationService.swift in Sources */,
 				8647820FC6276C44F46A41CD /* SyncStatusView.swift in Sources */,
 				18A6153C03E537D688FC1A27 /* Tag.swift in Sources */,
