@@ -13,6 +13,7 @@
 		0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F43FCCCEB6F214331FE14 /* SidebarView.swift */; };
 		13D84A24E262777DC2D597C2 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */; };
 		1784FD6ED2C39F28ECEAA6F3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D967E3254780328B08ED3 /* NotificationService.swift */; };
+		22194A400156AA00763B3149 /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4772456AD50A1CBFEAD47419 /* BackupService.swift */; };
 		23CA3149CCB2E4AD2FB62FAB /* GlobalHotkeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC909301C38C2E8FCB28C02 /* GlobalHotkeyService.swift */; };
 		28744B283E84EA8B25591A15 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C510E0846358F3B3B0179E /* SearchResultsView.swift */; };
 		2BD6653487591CAB77904630 /* URLSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568009CE8A96502A0E1A6118 /* URLSchemeHandler.swift */; };
@@ -21,6 +22,7 @@
 		33F1A09DD8BB524304F1C156 /* KeyboardShortcutsOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298F3EFED9950C9CF644191 /* KeyboardShortcutsOverlay.swift */; };
 		3757B504D9D6B4326C4C28D9 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 4DB4F17FB7A25BFC41BB7AD3 /* SwiftSoup */; };
 		37F91E72A4AB54530B68168D /* ContentExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498BFD3943B970B50457443 /* ContentExtractor.swift */; };
+		3CE2C82D8A2C420A9EB07E15 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A209E56008351A8AF89005CA /* CloudKitManager.swift */; };
 		3DB2999BA121BBD6E82E5F53 /* AnnotationPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CF026D5D3267D37301ECD /* AnnotationPanelView.swift */; };
 		3F38AF6FCE521CE28DA7296F /* FeedlyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BF58A6D7327C7102344D62 /* FeedlyService.swift */; };
 		3F80F964B527DB6370376389 /* OPMLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51E818F46289F5D927601 /* OPMLService.swift */; };
@@ -32,6 +34,7 @@
 		6629BE250B8B84FDF54EDE2C /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24603462DB332F4E7940DE1 /* FeedService.swift */; };
 		6D6F25A719543AE95F8D2357 /* FeedAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2C4A3214118D58EE2F57FF /* FeedAggregator.swift */; };
 		6E8DB3A6E242F3557048EC20 /* SQLiteArticleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */; };
+		6F6F2C19066B6530BA028017 /* BackgroundRefreshService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F7DDFE4E08C3857E3E56EE /* BackgroundRefreshService.swift */; };
 		7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBD37837F5AF0DAC88E483 /* Feed.swift */; };
 		73FD7F6D509A92AA8F57B83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */; };
 		76A412DE974F2464B11901B3 /* SQLiteFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4339D5B4C2D50A717A0475 /* SQLiteFeedStore.swift */; };
@@ -42,6 +45,7 @@
 		844DFDA6604D0573B2B5B73E /* InstapaperImportSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E5004AA76ECEFA9EAD601B /* InstapaperImportSheet.swift */; };
 		8647820FC6276C44F46A41CD /* SyncStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3751E52820566E3B85889 /* SyncStatusView.swift */; };
 		8897C395D45D20D159684BFE /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A90DE9916038EFD58B4D5E /* SettingsViewModel.swift */; };
+		88EB92A7E7C6F2834CF0EF7D /* FOLIOIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D0B17CB5558420F331531F /* FOLIOIntents.swift */; };
 		8AEC07B9986E1189C8E092DB /* ReaderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808E9ECB7A8915CC75353317 /* ReaderSettingsView.swift */; };
 		8D6F7215AB1C4B3E297374A3 /* FOLIOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D28D0A741C67B225F4AA79 /* FOLIOApp.swift */; };
 		8F9D791A547313EE72A54399 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C0AA69AC2AB3A8E038EE44 /* main.swift */; };
@@ -61,6 +65,8 @@
 		C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */; };
 		E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9161B7C6F540A265BFCA6F /* FavoritesViewModel.swift */; };
 		E47DEA3575A2E17400282AED /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D01638D8358995578A2473 /* Article.swift */; };
+		E7605997A6CBE50FE58EC574 /* iCloudSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5589E97180F91135D4A0B27 /* iCloudSyncService.swift */; };
+		EDCC6FDEA36EBC3CB70EFCC2 /* ICloudSyncSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CDBDD7CB833EC32BF33D67 /* ICloudSyncSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,17 +82,21 @@
 		3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtra.swift; sourceTree = "<group>"; };
 		3FC8820A31E55818CABA65A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		437F7FEDC072663035C5EE98 /* ReadingStatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingStatsService.swift; sourceTree = "<group>"; };
+		4772456AD50A1CBFEAD47419 /* BackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
 		49BA831792A7D60F2453BCF9 /* AnnotationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationService.swift; sourceTree = "<group>"; };
 		4C73C2B8465DACDADF9E035E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOAppState.swift; sourceTree = "<group>"; };
+		53F7DDFE4E08C3857E3E56EE /* BackgroundRefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshService.swift; sourceTree = "<group>"; };
 		556F5F262B441646B2E3F49D /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		568009CE8A96502A0E1A6118 /* URLSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeHandler.swift; sourceTree = "<group>"; };
+		59D0B17CB5558420F331531F /* FOLIOIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOIntents.swift; sourceTree = "<group>"; };
 		5ACC7BA1481BF8ADD0A01F31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C71442C5DFC4893056549F2 /* AnnotationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationViewModel.swift; sourceTree = "<group>"; };
 		5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEditorSheet.swift; sourceTree = "<group>"; };
 		6417E3917AA188582C850D70 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
 		64C0AA69AC2AB3A8E038EE44 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6E518C595C956B06651A2245 /* FeedbinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbinService.swift; sourceTree = "<group>"; };
+		70CDBDD7CB833EC32BF33D67 /* ICloudSyncSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudSyncSettingsView.swift; sourceTree = "<group>"; };
 		75A1214B7F456F0980B6B782 /* InstapaperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstapaperService.swift; sourceTree = "<group>"; };
 		808E9ECB7A8915CC75353317 /* ReaderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettingsView.swift; sourceTree = "<group>"; };
 		83C51E818F46289F5D927601 /* OPMLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPMLService.swift; sourceTree = "<group>"; };
@@ -94,9 +104,11 @@
 		90BF58A6D7327C7102344D62 /* FeedlyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedlyService.swift; sourceTree = "<group>"; };
 		914D967E3254780328B08ED3 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		970777C750723FDBB4C1DFFE /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		A209E56008351A8AF89005CA /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedSheet.swift; sourceTree = "<group>"; };
 		B1C3751E52820566E3B85889 /* SyncStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncStatusView.swift; sourceTree = "<group>"; };
 		B498BFD3943B970B50457443 /* ContentExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentExtractor.swift; sourceTree = "<group>"; };
+		B5589E97180F91135D4A0B27 /* iCloudSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudSyncService.swift; sourceTree = "<group>"; };
 		BA9161B7C6F540A265BFCA6F /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		BC0CF026D5D3267D37301ECD /* AnnotationPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationPanelView.swift; sourceTree = "<group>"; };
 		BCDCDF7010DE565C0F6A65E8 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
@@ -161,6 +173,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		2B7F1AB9A9EF40ADC3E9AF74 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				59D0B17CB5558420F331531F /* FOLIOIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
 		32F75244135EF6E18C98A1C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +190,7 @@
 				6417E3917AA188582C850D70 /* ArticleRowView.swift */,
 				5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */,
 				4C73C2B8465DACDADF9E035E /* ContentView.swift */,
+				70CDBDD7CB833EC32BF33D67 /* ICloudSyncSettingsView.swift */,
 				E6310A95C37FAD8D873103E5 /* ImportOPMLSheet.swift */,
 				D8E5004AA76ECEFA9EAD601B /* InstapaperImportSheet.swift */,
 				C298F3EFED9950C9CF644191 /* KeyboardShortcutsOverlay.swift */,
@@ -240,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				17E21CC04AE714570265D98C /* App */,
+				2B7F1AB9A9EF40ADC3E9AF74 /* Intents */,
 				656066A0DF5F322F698CB47A /* MenuBar */,
 				7F32E655C6993B7370E3AB82 /* Models */,
 				C1C0B8D48A1537F09FE15BE4 /* Resources */,
@@ -255,6 +277,9 @@
 			children = (
 				49BA831792A7D60F2453BCF9 /* AnnotationService.swift */,
 				39140242EA03A9A3ACE243C5 /* ArticleSearchService.swift */,
+				53F7DDFE4E08C3857E3E56EE /* BackgroundRefreshService.swift */,
+				4772456AD50A1CBFEAD47419 /* BackupService.swift */,
+				A209E56008351A8AF89005CA /* CloudKitManager.swift */,
 				B498BFD3943B970B50457443 /* ContentExtractor.swift */,
 				CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */,
 				DD2C4A3214118D58EE2F57FF /* FeedAggregator.swift */,
@@ -262,6 +287,7 @@
 				90BF58A6D7327C7102344D62 /* FeedlyService.swift */,
 				D24603462DB332F4E7940DE1 /* FeedService.swift */,
 				3CC909301C38C2E8FCB28C02 /* GlobalHotkeyService.swift */,
+				B5589E97180F91135D4A0B27 /* iCloudSyncService.swift */,
 				75A1214B7F456F0980B6B782 /* InstapaperService.swift */,
 				914D967E3254780328B08ED3 /* NotificationService.swift */,
 				83C51E818F46289F5D927601 /* OPMLService.swift */,
@@ -365,13 +391,17 @@
 				13D84A24E262777DC2D597C2 /* ArticleListViewModel.swift in Sources */,
 				8256B28888B6D59B6BB75D9B /* ArticleRowView.swift in Sources */,
 				B11A3E5B4212DCDDDBE3804E /* ArticleSearchService.swift in Sources */,
+				6F6F2C19066B6530BA028017 /* BackgroundRefreshService.swift in Sources */,
+				22194A400156AA00763B3149 /* BackupService.swift in Sources */,
 				ABB8DE25950939BC6B62D59F /* Category.swift in Sources */,
 				3093D44159749012BA7996B2 /* CategoryEditorSheet.swift in Sources */,
+				3CE2C82D8A2C420A9EB07E15 /* CloudKitManager.swift in Sources */,
 				37F91E72A4AB54530B68168D /* ContentExtractor.swift in Sources */,
 				7EDB70AD75830AFA7F541DCE /* ContentView.swift in Sources */,
 				013FA9C1884D511BE57769F4 /* DatabaseManager.swift in Sources */,
 				8D6F7215AB1C4B3E297374A3 /* FOLIOApp.swift in Sources */,
 				500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */,
+				88EB92A7E7C6F2834CF0EF7D /* FOLIOIntents.swift in Sources */,
 				E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */,
 				7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */,
 				6D6F25A719543AE95F8D2357 /* FeedAggregator.swift in Sources */,
@@ -380,6 +410,7 @@
 				802D9E6B174D0EE98DCA717B /* FeedbinService.swift in Sources */,
 				3F38AF6FCE521CE28DA7296F /* FeedlyService.swift in Sources */,
 				23CA3149CCB2E4AD2FB62FAB /* GlobalHotkeyService.swift in Sources */,
+				EDCC6FDEA36EBC3CB70EFCC2 /* ICloudSyncSettingsView.swift in Sources */,
 				022136465132BA2E8A2C84C6 /* ImportOPMLSheet.swift in Sources */,
 				844DFDA6604D0573B2B5B73E /* InstapaperImportSheet.swift in Sources */,
 				9C70ECBFD9D34EA40A594C03 /* InstapaperService.swift in Sources */,
@@ -401,6 +432,7 @@
 				0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */,
 				8647820FC6276C44F46A41CD /* SyncStatusView.swift in Sources */,
 				2BD6653487591CAB77904630 /* URLSchemeHandler.swift in Sources */,
+				E7605997A6CBE50FE58EC574 /* iCloudSyncService.swift in Sources */,
 				8F9D791A547313EE72A54399 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
