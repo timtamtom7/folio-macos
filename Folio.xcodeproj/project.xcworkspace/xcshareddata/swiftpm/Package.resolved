@@ -1,6 +1,15 @@
 {
-  "originHash" : "0f2fc1123fc4ea6c92bb9d964def15eac792b821d5573943ac983bb460993a19",
+  "originHash" : "b5d8e27493ad33b708bf55ec88c898854d4a5b18dbdca545129dc485becd7933",
   "pins" : [
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    },
     {
       "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
@@ -17,6 +26,15 @@
       "state" : {
         "revision" : "964c300fb0736699ce945c9edb56ecd62eba27a3",
         "version" : "0.16.0"
+      }
+    },
+    {
+      "identity" : "swiftsoup",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/scinfu/SwiftSoup",
+      "state" : {
+        "revision" : "e40910293caa6d94802e1a69b80517c88e77eaff",
+        "version" : "2.13.3"
       }
     }
   ],
