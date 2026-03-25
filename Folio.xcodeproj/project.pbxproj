@@ -28,11 +28,13 @@
 		3DB2999BA121BBD6E82E5F53 /* AnnotationPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0CF026D5D3267D37301ECD /* AnnotationPanelView.swift */; };
 		3F38AF6FCE521CE28DA7296F /* FeedlyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BF58A6D7327C7102344D62 /* FeedlyService.swift */; };
 		3F80F964B527DB6370376389 /* OPMLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C51E818F46289F5D927601 /* OPMLService.swift */; };
+		40814642061479897B0E628A /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743ACAC12BCC0FC5495EEFB /* PluginManager.swift */; };
 		42782E3391AD7E782CCB3F1F /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C59388C738863D0D800AEE /* MainWindowController.swift */; };
 		46C63052E814155C513A72BF /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F5F262B441646B2E3F49D /* ArticleListView.swift */; };
 		4AD6AAC24DCE98E3BD3EB2B9 /* SharedFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5023821FF67F28A406B5E98 /* SharedFeedService.swift */; };
 		500138B877C2BD12A9CFF287 /* FOLIOAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */; };
 		517059BAFB085058C271C9C0 /* AddFeedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C31B76E73E6521CEDFB197 /* AddFeedSheet.swift */; };
+		57B1F9AB26703B9507620C4D /* FeedDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E604B8A73179CAD1416E9F /* FeedDiscoveryService.swift */; };
 		5D75131402362BC02435F9D8 /* MenuBarExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */; };
 		617EFC818F7996695F8175B3 /* ReadingQueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104AD156F7B01B7B56996E38 /* ReadingQueueView.swift */; };
 		6472218FA8259255E97D36F4 /* RulesEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7FD849CDD90F2510E2DFD /* RulesEditorSheet.swift */; };
@@ -69,6 +71,7 @@
 		BD4DCAF11CE2F096DEC284FC /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8B02DD5F7642FD9EEF5046 /* ReaderViewModel.swift */; };
 		C0E7B38A02D0C1F517942DE1 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCDF7010DE565C0F6A65E8 /* Annotation.swift */; };
 		C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */; };
+		C543CE1572F3206A64DC4C3E /* FeedDiscoverySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C52471C9E8B81972A1D7E8B /* FeedDiscoverySheet.swift */; };
 		E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9161B7C6F540A265BFCA6F /* FavoritesViewModel.swift */; };
 		E25B21A67404DF864027A0A8 /* FilterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5694C1951966705099DE81F0 /* FilterRule.swift */; };
 		E47DEA3575A2E17400282AED /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D01638D8358995578A2473 /* Article.swift */; };
@@ -83,10 +86,13 @@
 		0B5E47D6FB1CDD2D2E03D0F8 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
 		104AD156F7B01B7B56996E38 /* ReadingQueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQueueView.swift; sourceTree = "<group>"; };
 		104F43FCCCEB6F214331FE14 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		15E604B8A73179CAD1416E9F /* FeedDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDiscoveryService.swift; sourceTree = "<group>"; };
+		1743ACAC12BCC0FC5495EEFB /* PluginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		229AE734CBF49FD92554CA59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		24D01638D8358995578A2473 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		37CF3482334DC3107032D01D /* SQLiteArticleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteArticleStore.swift; sourceTree = "<group>"; };
 		39140242EA03A9A3ACE243C5 /* ArticleSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSearchService.swift; sourceTree = "<group>"; };
+		3C52471C9E8B81972A1D7E8B /* FeedDiscoverySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDiscoverySheet.swift; sourceTree = "<group>"; };
 		3CC909301C38C2E8FCB28C02 /* GlobalHotkeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkeyService.swift; sourceTree = "<group>"; };
 		3E72ACC8C44E22B0CBAA9F45 /* MenuBarExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtra.swift; sourceTree = "<group>"; };
 		3FC8820A31E55818CABA65A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -206,6 +212,7 @@
 				6417E3917AA188582C850D70 /* ArticleRowView.swift */,
 				5DF244D33CF504AEB05D6745 /* CategoryEditorSheet.swift */,
 				4C73C2B8465DACDADF9E035E /* ContentView.swift */,
+				3C52471C9E8B81972A1D7E8B /* FeedDiscoverySheet.swift */,
 				70CDBDD7CB833EC32BF33D67 /* ICloudSyncSettingsView.swift */,
 				E6310A95C37FAD8D873103E5 /* ImportOPMLSheet.swift */,
 				D8E5004AA76ECEFA9EAD601B /* InstapaperImportSheet.swift */,
@@ -305,6 +312,7 @@
 				CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */,
 				DD2C4A3214118D58EE2F57FF /* FeedAggregator.swift */,
 				6E518C595C956B06651A2245 /* FeedbinService.swift */,
+				15E604B8A73179CAD1416E9F /* FeedDiscoveryService.swift */,
 				90BF58A6D7327C7102344D62 /* FeedlyService.swift */,
 				D24603462DB332F4E7940DE1 /* FeedService.swift */,
 				3CC909301C38C2E8FCB28C02 /* GlobalHotkeyService.swift */,
@@ -312,6 +320,7 @@
 				75A1214B7F456F0980B6B782 /* InstapaperService.swift */,
 				914D967E3254780328B08ED3 /* NotificationService.swift */,
 				83C51E818F46289F5D927601 /* OPMLService.swift */,
+				1743ACAC12BCC0FC5495EEFB /* PluginManager.swift */,
 				437F7FEDC072663035C5EE98 /* ReadingStatsService.swift */,
 				9BECB18C3CCE72A0DCE49272 /* RulesEngine.swift */,
 				C5023821FF67F28A406B5E98 /* SharedFeedService.swift */,
@@ -429,6 +438,8 @@
 				E086A22CC83AEDA635F1D17C /* FavoritesViewModel.swift in Sources */,
 				7084FACDD740D0FBA47F5C1A /* Feed.swift in Sources */,
 				6D6F25A719543AE95F8D2357 /* FeedAggregator.swift in Sources */,
+				57B1F9AB26703B9507620C4D /* FeedDiscoveryService.swift in Sources */,
+				C543CE1572F3206A64DC4C3E /* FeedDiscoverySheet.swift in Sources */,
 				C206E24D9FC10C24434FB0C7 /* FeedListViewModel.swift in Sources */,
 				6629BE250B8B84FDF54EDE2C /* FeedService.swift in Sources */,
 				802D9E6B174D0EE98DCA717B /* FeedbinService.swift in Sources */,
@@ -444,6 +455,7 @@
 				5D75131402362BC02435F9D8 /* MenuBarExtra.swift in Sources */,
 				1784FD6ED2C39F28ECEAA6F3 /* NotificationService.swift in Sources */,
 				3F80F964B527DB6370376389 /* OPMLService.swift in Sources */,
+				40814642061479897B0E628A /* PluginManager.swift in Sources */,
 				8AEC07B9986E1189C8E092DB /* ReaderSettingsView.swift in Sources */,
 				312C1CA6E2BA93D6B46078D4 /* ReaderView.swift in Sources */,
 				BD4DCAF11CE2F096DEC284FC /* ReaderViewModel.swift in Sources */,
