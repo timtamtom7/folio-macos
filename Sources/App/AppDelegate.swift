@@ -4,6 +4,7 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
     var mainWindowController: MainWindowController?
     var settingsWindowController: SettingsWindowController?
+    var menuBarExtraController: FOLIOMenuBarController?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         DatabaseManager.shared.setup()
@@ -16,6 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupMenu()
         setupNotificationObservers()
         setupGlobalHotkeys()
+        setupMenuBarExtra()
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
@@ -166,6 +168,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         hotkeyService.start()
+    }
+
+    private func setupMenuBarExtra() {
+        // Menu bar extra setup deferred to FOLIOAppState for main actor access
     }
 
     // MARK: - Actions

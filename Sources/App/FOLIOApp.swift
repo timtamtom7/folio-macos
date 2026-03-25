@@ -34,7 +34,7 @@ struct FOLIOApp: App {
         }
 
         MenuBarExtra {
-            MenuBarExtraView()
+            MenuBarExtraView(appState: appState)
                 .environmentObject(appState)
         } label: {
             Label("FOLIO", systemImage: "newspaper.fill")

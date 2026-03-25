@@ -96,5 +96,43 @@ class DatabaseManager {
 
         try db.run(articles.createIndex(feedId, ifNotExists: true))
         try db.run(articles.createIndex(publishedAt, ifNotExists: true))
+
+        // Annotations table
+        let annotations = Table("annotations")
+        let annotationId = SQLite.Expression<String>("id")
+        let annotationArticleId = SQLite.Expression<String>("article_id")
+        let annotationContent = SQLite.Expression<String>("content")
+        let highlightColor = SQLite.Expression<String?>("highlight_color")
+        let selectedText = SQLite.Expression<String?>("selected_text")
+        let annotationCreatedAt = SQLite.Expression<String>("created_at")
+        let annotationUpdatedAt = SQLite.Expression<String>("updated_at")
+
+        try db.run(annotations.create(ifNotExists: true) { t in
+            t.column(annotationId, primaryKey: true)
+            t.column(annotationArticleId)
+            t.column(annotationContent)
+            t.column(highlightColor)
+            t.column(selectedText)
+            t.column(annotationCreatedAt)
+            t.column(annotationUpdatedAt)
+        })
+
+        try db.run(annotations.createIndex(annotationArticleId, ifNotExists: true))
+
+        // Reading sessions table
+        let sessions = Table("reading_sessions")
+        let sessionId = SQLite.Expression<String>("id")
+        let sessionArticleId = SQLite.Expression<String>("article_id")
+        let startedAt = SQLite.Expression<String>("started_at")
+        let durationSec = SQLite.Expression<Int>("duration_seconds")
+        let completedReading = SQLite.Expression<Bool>("completed_reading")
+
+        try db.run(sessions.create(ifNotExists: true) { t in
+            t.column(sessionId, primaryKey: true)
+            t.column(sessionArticleId)
+            t.column(startedAt)
+            t.column(durationSec, defaultValue: 0)
+            t.column(completedReading, defaultValue: false)
+        })
     }
 }
