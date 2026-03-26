@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
 
-    func applicationSupportsSecureRestatableState(_ app: NSApplication) -> Bool {
+    func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
         return false
     }
 

@@ -5,8 +5,16 @@ final class FeedbinService: ObservableObject {
     static let shared = FeedbinService()
 
     private let keychain = Keychain(service: "com.folio.feedbin")
-    private let baseURL = URL(string: "https://api.feedbin.me/v2")!
+    private let baseURL: URL
     private var accessToken: String?
+
+    init() {
+        guard let url = URL(string: "https://api.feedbin.me/v2") else {
+            fatalError("Failed to create Feedbin base URL - hardcoded URL is invalid")
+        }
+        self.baseURL = url
+        loadCredentials()
+    }
 
     @Published var isConnected = false
     @Published var lastSyncedAt: Date?
@@ -26,10 +34,6 @@ final class FeedbinService: ObservableObject {
         let id: Int
         let entry_id: Int
         let created_at: String
-    }
-
-    private init() {
-        loadCredentials()
     }
 
     func loadCredentials() {

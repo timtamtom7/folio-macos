@@ -8,13 +8,17 @@ final class FeedlyService: ObservableObject {
     private let keychain = Keychain(service: "com.folio.feedly")
     private let clientId = "foliords"
     private let redirectURI = "foliords://auth/feedly"
-    private let authURL = URL(string: "https://feedly.com/v3/auth/auth")!
+    private let authURL: URL
 
     @Published var isConnected = false
     @Published var lastSyncedAt: Date?
     @Published var userId: String?
 
     private init() {
+        guard let url = URL(string: "https://feedly.com/v3/auth/auth") else {
+            fatalError("Failed to create Feedly auth URL - hardcoded URL is invalid")
+        }
+        self.authURL = url
         loadCredentials()
     }
 
@@ -27,14 +31,15 @@ final class FeedlyService: ObservableObject {
     }
 
     func startOAuth() {
-        var components = URLComponents(url: authURL, resolvingAgainstBaseURL: false)!
+        guard var components = URLComponents(url: authURL, resolvingAgainstBaseURL: false) else { return }
         components.queryItems = [
             URLQueryItem(name: "response_type", value: "code"),
             URLQueryItem(name: "client_id", value: clientId),
             URLQueryItem(name: "redirect_uri", value: redirectURI),
             URLQueryItem(name: "scope", value: "https://cloud.feedly.com/subscriptions")
         ]
-        NSWorkspace.shared.open(components.url!)
+        guard let url = components.url else { return }
+        NSWorkspace.shared.open(url)
     }
 
     func handleOAuthCallback(url: URL) async throws {
@@ -74,14 +79,16 @@ final class FeedlyService: ObservableObject {
     func refreshAccessTokenIfNeeded() async throws {
         guard let refresh = getRefreshToken() else { return }
 
-        guard var components = URLComponents(url: URL(string: "https://cloud.feedly.com/v3/auth/token")!, resolvingAgainstBaseURL: false) else { return }
+        guard let tokenURL = URL(string: "https://cloud.feedly.com/v3/auth/token"),
+              var components = URLComponents(url: tokenURL, resolvingAgainstBaseURL: false) else { return }
         components.queryItems = [
             URLQueryItem(name: "refresh_token", value: refresh),
             URLQueryItem(name: "grant_type", value: "refresh_token"),
             URLQueryItem(name: "client_id", value: clientId)
         ]
 
-        var request = URLRequest(url: components.url!)
+        guard let url = components.url else { return }
+        var request = URLRequest(url: url)
         request.httpMethod = "POST"
 
         let (data, _) = try await URLSession.shared.data(for: request)

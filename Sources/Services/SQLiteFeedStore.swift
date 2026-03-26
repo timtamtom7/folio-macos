@@ -99,9 +99,11 @@ class SQLiteFeedStore {
         var result: [Feed] = []
         do {
             for row in try db.prepare(feeds) {
+                let feedUrl = URL(string: row[url])
+                guard let feedUrl = feedUrl else { continue }
                 let feed = Feed(
                     id: UUID(uuidString: row[id]) ?? UUID(),
-                    url: URL(string: row[url])!,
+                    url: feedUrl,
                     title: row[title],
                     siteUrl: row[siteUrl].flatMap { URL(string: $0) },
                     iconUrl: row[iconUrl].flatMap { URL(string: $0) },

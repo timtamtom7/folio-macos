@@ -1,7 +1,14 @@
 import Foundation
 
 final class InstapaperService {
-    private let baseURL = URL(string: "https://www.instapaper.com/api/1.1")!
+    private let baseURL: URL
+
+    init() {
+        guard let url = URL(string: "https://www.instapaper.com/api/1.1") else {
+            fatalError("Failed to create Instapaper base URL - hardcoded URL is invalid")
+        }
+        self.baseURL = url
+    }
     private let keychainService = "com.folio.instapaper"
 
     struct Bookmark: Codable {
@@ -39,7 +46,7 @@ final class InstapaperService {
             request.setValue("Basic \(loginData.base64EncodedString())", forHTTPHeaderField: "Authorization")
         }
 
-        let (data, response) = try await URLSession.shared.data(for: request)
+        let (_, response) = try await URLSession.shared.data(for: request)
 
         if let httpResponse = response as? HTTPURLResponse {
             if httpResponse.statusCode == 200 {
@@ -93,7 +100,9 @@ final class InstapaperService {
         request.httpMethod = "POST"
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         let loginString = "\(username):\(password)"
-        request.setValue("Basic \(loginString.data(using: .utf8)!.base64EncodedString())", forHTTPHeaderField: "Authorization")
+        if let loginData = loginString.data(using: .utf8) {
+            request.setValue("Basic \(loginData.base64EncodedString())", forHTTPHeaderField: "Authorization")
+        }
         let body = "url=\((url.absoluteString).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&title=\((title ?? "").addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")"
         request.httpBody = body.data(using: .utf8)
 

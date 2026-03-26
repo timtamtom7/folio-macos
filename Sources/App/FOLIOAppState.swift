@@ -16,6 +16,10 @@ class FOLIOAppState: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     private var refreshTimer: Timer?
 
+    deinit {
+        refreshTimer?.invalidate()
+    }
+
     init() {
         loadData()
         setupNotifications()

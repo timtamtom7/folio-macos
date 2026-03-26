@@ -156,7 +156,9 @@ struct ReaderWebView: NSViewRepresentable {
 
     func makeNSView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
-        config.preferences.javaScriptEnabled = false
+        let preferences = WKWebpagePreferences()
+        preferences.allowsContentJavaScript = false
+        config.defaultWebpagePreferences = preferences
         let webView = WKWebView(frame: .zero, configuration: config)
         webView.navigationDelegate = context.coordinator
         return webView

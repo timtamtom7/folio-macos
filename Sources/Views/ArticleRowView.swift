@@ -54,7 +54,7 @@ struct ArticleRowView: View {
                 }
 
                 HStack {
-                    Text(article.feedId.uuidString.prefix(8))
+                    Text(article.author ?? "Unknown Feed")
                         .font(.caption)
                         .foregroundColor(.secondary)
 

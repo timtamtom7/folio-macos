@@ -20,9 +20,6 @@ final class AnnotationViewModel: ObservableObject {
         )
         annotationService.saveAnnotation(annotation)
         self.selectedText = nil
-        if let article = annotations.first {
-            loadAnnotations(for: Article(id: articleId, feedId: UUID(), title: "", url: URL(string: "https://example.com")!, publishedAt: Date()))
-        }
         // Reload from storage
         let updated = annotationService.getAnnotations(forArticle: articleId)
         annotations = updated

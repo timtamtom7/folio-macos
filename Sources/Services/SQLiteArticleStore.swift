@@ -80,11 +80,12 @@ class SQLiteArticleStore {
         var result: [Article] = []
         do {
             for row in try db.prepare(query.limit(50)) {
+                guard let articleUrl = URL(string: row[articleUrl]) else { continue }
                 let article = Article(
                     id: UUID(uuidString: row[id]) ?? UUID(),
                     feedId: UUID(uuidString: row[fkFeedId]) ?? UUID(),
                     title: row[articleTitle],
-                    url: URL(string: row[articleUrl])!,
+                    url: articleUrl,
                     author: row[author],
                     summary: row[summary],
                     content: row[content],
@@ -234,11 +235,12 @@ class SQLiteArticleStore {
         var result: [Article] = []
         do {
             for row in try db.prepare(searchQuery) {
+                guard let articleUrl = URL(string: row[articleUrl]) else { continue }
                 let article = Article(
                     id: UUID(uuidString: row[id]) ?? UUID(),
                     feedId: UUID(uuidString: row[fkFeedId]) ?? UUID(),
                     title: row[articleTitle],
-                    url: URL(string: row[articleUrl])!,
+                    url: articleUrl,
                     author: row[author],
                     summary: row[summary],
                     content: row[content],
