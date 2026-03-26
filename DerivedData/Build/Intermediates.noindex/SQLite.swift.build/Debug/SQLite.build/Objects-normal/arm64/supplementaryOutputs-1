@@ -1,0 +1,30 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Backup.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Backup.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Backup.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Backup.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Backup.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Backup.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Blob.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Blob.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Blob.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Blob.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Blob.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Blob.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Aggregation.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Aggregation.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Aggregation.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Aggregation.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Aggregation.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Aggregation.swiftdeps"
+  }
+}

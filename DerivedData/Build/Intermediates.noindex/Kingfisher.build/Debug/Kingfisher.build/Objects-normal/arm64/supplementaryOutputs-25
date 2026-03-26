@@ -1,0 +1,44 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/Image.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Image.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Image.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Image.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Image.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Image.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageDrawing.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageDrawing.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageDrawing.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageDrawing.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageDrawing.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageDrawing.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageFormat.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageFormat.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageFormat.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageFormat.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageFormat.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageFormat.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageProcessor.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProcessor.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProcessor.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProcessor.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProcessor.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProcessor.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageProgressive.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProgressive.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProgressive.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProgressive.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProgressive.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageProgressive.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/ImageTransition.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageTransition.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageTransition.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageTransition.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageTransition.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImageTransition.swiftdeps"
+  }
+}

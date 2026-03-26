@@ -1,0 +1,51 @@
+{
+  "/Users/mauriello/Dev/folio-macos/Sources/Models/SharedFeed.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeed.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeed.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeed.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeed.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeed.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Models/Tag.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/Tag.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/Tag.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/Tag.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/Tag.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/Tag.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/SharedFeedService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeedService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeedService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeedService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeedService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SharedFeedService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/SubscriptionService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SubscriptionService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SubscriptionService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SubscriptionService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SubscriptionService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SubscriptionService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/SummarizationService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SummarizationService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SummarizationService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SummarizationService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SummarizationService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SummarizationService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/SidebarView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SidebarView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SidebarView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SidebarView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SidebarView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SidebarView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/SyncStatusView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SyncStatusView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SyncStatusView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SyncStatusView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SyncStatusView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SyncStatusView.swiftdeps"
+  }
+}

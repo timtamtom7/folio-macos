@@ -1,0 +1,58 @@
+{
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/PredictiveFetchService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PredictiveFetchService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PredictiveFetchService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PredictiveFetchService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PredictiveFetchService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PredictiveFetchService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/ReadabilityAnalyzer.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadabilityAnalyzer.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadabilityAnalyzer.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadabilityAnalyzer.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadabilityAnalyzer.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadabilityAnalyzer.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/ReadingStatsService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingStatsService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingStatsService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingStatsService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingStatsService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingStatsService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/ViewModels/ReaderViewModel.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderViewModel.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderViewModel.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderViewModel.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderViewModel.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/ReaderSettingsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderSettingsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderSettingsView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderSettingsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderSettingsView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/ReaderView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReaderView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/ReadingQueueView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingQueueView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingQueueView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingQueueView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingQueueView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ReadingQueueView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/RulesEditorSheet.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEditorSheet.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEditorSheet.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEditorSheet.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEditorSheet.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEditorSheet.swiftdeps"
+  }
+}

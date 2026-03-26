@@ -1,0 +1,44 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/Elements.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Elements.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Elements.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Elements.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Elements.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Elements.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/Entities.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Entities.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Entities.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Entities.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Entities.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Entities.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/Evaluator.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Evaluator.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Evaluator.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Evaluator.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Evaluator.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Evaluator.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/Exception.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Exception.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Exception.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Exception.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Exception.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Exception.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/FormElement.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/FormElement.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/FormElement.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/FormElement.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/FormElement.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/FormElement.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/HtmlTreeBuilder.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/HtmlTreeBuilder.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/HtmlTreeBuilder.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/HtmlTreeBuilder.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/HtmlTreeBuilder.swiftdeps"
+  }
+}

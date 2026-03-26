@@ -1,0 +1,30 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Attach.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Attach.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Attach.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Attach.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Attach.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Attach.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Pragmas.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Pragmas.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Pragmas.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Pragmas.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Pragmas.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Pragmas.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Errors.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Errors.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Errors.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Errors.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Errors.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Errors.swiftdeps"
+  }
+}

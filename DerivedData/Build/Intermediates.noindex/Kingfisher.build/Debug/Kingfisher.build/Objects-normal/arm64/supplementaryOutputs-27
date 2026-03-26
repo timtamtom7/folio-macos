@@ -1,0 +1,44 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/ImagePrefetcher.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/ImagePrefetcher.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/RedirectHandler.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RedirectHandler.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RedirectHandler.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RedirectHandler.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RedirectHandler.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RedirectHandler.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/RequestModifier.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RequestModifier.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RequestModifier.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RequestModifier.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RequestModifier.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RequestModifier.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/RetryStrategy.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RetryStrategy.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RetryStrategy.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RetryStrategy.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RetryStrategy.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/RetryStrategy.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/SessionDataTask.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDataTask.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDataTask.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDataTask.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDataTask.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDataTask.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Networking/SessionDelegate.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDelegate.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDelegate.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDelegate.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDelegate.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/SessionDelegate.swiftdeps"
+  }
+}

@@ -1,0 +1,2539 @@
+[
+  {
+    "typeName": "FOLIO.GetUnreadArticlesIntent",
+    "mangledTypeName": "5FOLIO23GetUnreadArticlesIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 6,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ReturnsValue<Swift.Array<FOLIO.ArticleInfo>>",
+        "substitutedMangledTypeName": "5FOLIO23GetUnreadArticlesIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.Array<FOLIO.ArticleInfo>",
+            "substitutedMangledTypeName": "Say5FOLIO11ArticleInfoVG"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO23GetUnreadArticlesIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 11,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Articles"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "_feedName",
+        "type": "AppIntents.IntentParameter<Swift.Optional<Swift.String>>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 14,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Optional<Swift.String>>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Feed Name"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 7,
+        "valueKind": "RawLiteral",
+        "value": "Get Unread Articles"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 8,
+        "valueKind": "RawLiteral",
+        "value": "Returns a list of unread articles from FOLIO"
+      },
+      {
+        "label": "limit",
+        "type": "Swift.Int",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 11,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Articles"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 10,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Number of Articles"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.Int>",
+                "valueKind": "RawLiteral",
+                "value": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 11,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "feedName",
+        "type": "Swift.Optional<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 14,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Optional<Swift.String>>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Feed Name"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 13,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Feed Name"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.String>",
+                "valueKind": "NilLiteral"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$feedName",
+        "type": "AppIntents.IntentParameter<Swift.Optional<Swift.String>>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 14,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 16,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.GetUnreadArticlesIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.GetUnreadArticlesIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Get "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$limit",
+                      "rootType": "FOLIO.GetUnreadArticlesIntent",
+                      "components": [
+                        {
+                          "label": "$limit",
+                          "type": "AppIntents.IntentParameter<Swift.Int>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": " unread articles"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "",
+              "type": "() -> Swift.Array<Swift.PartialKeyPath<FOLIO.GetUnreadArticlesIntent>>",
+              "valueKind": "Builder",
+              "value": {
+                "type": "",
+                "members": [
+                  {
+                    "kind": "buildExpression",
+                    "element": {
+                      "valueKind": "KeyPath",
+                      "value": {
+                        "path": "$feedName",
+                        "rootType": "FOLIO.GetUnreadArticlesIntent",
+                        "components": [
+                          {
+                            "label": "$feedName",
+                            "type": "AppIntents.IntentParameter<Swift.Optional<Swift.String>>"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.ArticleInfo",
+    "mangledTypeName": "5FOLIO11ArticleInfoV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 59,
+    "conformances": [
+      "AppIntents.AppEntity",
+      "AppIntents.AppValue",
+      "AppIntents.DisplayRepresentable",
+      "Swift.Identifiable",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents.TypeDisplayRepresentable",
+      "AppIntents._IntentValue",
+      "Swift.Sendable",
+      "AppIntents.InstanceDisplayRepresentable",
+      "Swift.SendableMetatype",
+      "Foundation.CustomLocalizedStringResourceConvertible"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppEntity",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.AppValue",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.DisplayRepresentable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Identifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.TypeDisplayRepresentable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._IntentValue",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.InstanceDisplayRepresentable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Foundation.CustomLocalizedStringResourceConvertible",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "DefaultQuery",
+        "substitutedTypeName": "FOLIO.ArticleInfoQuery",
+        "substitutedMangledTypeName": "5FOLIO16ArticleInfoQueryV"
+      },
+      {
+        "typeAliasName": "ID",
+        "substitutedTypeName": "Swift.String",
+        "substitutedMangledTypeName": "SS"
+      },
+      {
+        "typeAliasName": "ValueType",
+        "substitutedTypeName": "FOLIO.ArticleInfo",
+        "substitutedMangledTypeName": "5FOLIO11ArticleInfoV"
+      },
+      {
+        "typeAliasName": "UnwrappedType",
+        "substitutedTypeName": "FOLIO.ArticleInfo",
+        "substitutedMangledTypeName": "5FOLIO11ArticleInfoV"
+      },
+      {
+        "typeAliasName": "Specification",
+        "substitutedTypeName": "AppIntents.EmptyResolverSpecification<FOLIO.ArticleInfo>",
+        "substitutedMangledTypeName": "10AppIntents26EmptyResolverSpecificationVy5FOLIO11ArticleInfoVG"
+      }
+    ],
+    "properties": [
+      {
+        "label": "id",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 62,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "title",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 63,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "url",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 64,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "author",
+        "type": "Swift.Optional<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 65,
+        "valueKind": "NilLiteral"
+      },
+      {
+        "label": "publishedAt",
+        "type": "Foundation.Date",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 66,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "typeDisplayRepresentation",
+        "type": "AppIntents.TypeDisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 60,
+        "valueKind": "RawLiteral",
+        "value": "Article"
+      },
+      {
+        "label": "defaultQuery",
+        "type": "FOLIO.ArticleInfoQuery",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 68,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "FOLIO.ArticleInfoQuery",
+          "arguments": []
+        }
+      },
+      {
+        "label": "displayRepresentation",
+        "type": "AppIntents.DisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 70,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.DisplayRepresentation",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  },
+                  {
+                    "valueKind": "Runtime"
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "subtitle",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "image",
+              "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.ArticleInfoQuery",
+    "mangledTypeName": "5FOLIO16ArticleInfoQueryV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 75,
+    "conformances": [
+      "AppIntents.EntityQuery",
+      "AppIntents.DynamicOptionsProvider",
+      "AppIntents.PersistentlyIdentifiable",
+      "Swift.Sendable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.EntityQuery",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.DynamicOptionsProvider",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "Entity",
+        "substitutedTypeName": "FOLIO.ArticleInfo",
+        "substitutedMangledTypeName": "5FOLIO11ArticleInfoV"
+      },
+      {
+        "typeAliasName": "Result",
+        "substitutedTypeName": "Swift.Array<FOLIO.ArticleInfo>",
+        "substitutedMangledTypeName": "Say5FOLIO11ArticleInfoVG"
+      },
+      {
+        "typeAliasName": "Result",
+        "substitutedTypeName": "Swift.Array<FOLIO.ArticleInfo>",
+        "substitutedMangledTypeName": "Say5FOLIO11ArticleInfoVG"
+      },
+      {
+        "typeAliasName": "DefaultValue",
+        "substitutedTypeName": "FOLIO.ArticleInfo",
+        "substitutedMangledTypeName": "5FOLIO11ArticleInfoV"
+      }
+    ],
+    "properties": []
+  },
+  {
+    "typeName": "FOLIO.MarkArticleReadIntent",
+    "mangledTypeName": "5FOLIO21MarkArticleReadIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 87,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "5FOLIO21MarkArticleReadIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO21MarkArticleReadIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_articleURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 92,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Article URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 88,
+        "valueKind": "RawLiteral",
+        "value": "Mark Article as Read"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 89,
+        "valueKind": "RawLiteral",
+        "value": "Marks an article as read in FOLIO"
+      },
+      {
+        "label": "articleURL",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 92,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Article URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 91,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Article URL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$articleURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 92,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 94,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.MarkArticleReadIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.MarkArticleReadIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Mark article as read: "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$articleURL",
+                      "rootType": "FOLIO.MarkArticleReadIntent",
+                      "components": [
+                        {
+                          "label": "$articleURL",
+                          "type": "AppIntents.IntentParameter<Swift.String>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.MarkArticleUnreadIntent",
+    "mangledTypeName": "5FOLIO23MarkArticleUnreadIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 116,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "5FOLIO23MarkArticleUnreadIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO23MarkArticleUnreadIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_articleURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 121,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Article URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 117,
+        "valueKind": "RawLiteral",
+        "value": "Mark Article as Unread"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 118,
+        "valueKind": "RawLiteral",
+        "value": "Marks an article as unread in FOLIO"
+      },
+      {
+        "label": "articleURL",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 121,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Article URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 120,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Article URL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$articleURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 121,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 123,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.MarkArticleUnreadIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.MarkArticleUnreadIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Mark article as unread: "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$articleURL",
+                      "rootType": "FOLIO.MarkArticleUnreadIntent",
+                      "components": [
+                        {
+                          "label": "$articleURL",
+                          "type": "AppIntents.IntentParameter<Swift.String>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.AddFeedIntent",
+    "mangledTypeName": "5FOLIO13AddFeedIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 145,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "5FOLIO13AddFeedIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO13AddFeedIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_feedURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 150,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Feed URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 146,
+        "valueKind": "RawLiteral",
+        "value": "Add Feed"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 147,
+        "valueKind": "RawLiteral",
+        "value": "Adds a new RSS feed to FOLIO"
+      },
+      {
+        "label": "feedURL",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 150,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Feed URL"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 149,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Feed URL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$feedURL",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 150,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 152,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.AddFeedIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.AddFeedIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Add feed: "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$feedURL",
+                      "rootType": "FOLIO.AddFeedIntent",
+                      "components": [
+                        {
+                          "label": "$feedURL",
+                          "type": "AppIntents.IntentParameter<Swift.String>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.RefreshFeedsIntent",
+    "mangledTypeName": "5FOLIO18RefreshFeedsIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 185,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "5FOLIO18RefreshFeedsIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO18RefreshFeedsIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 186,
+        "valueKind": "RawLiteral",
+        "value": "Refresh Feeds"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 187,
+        "valueKind": "RawLiteral",
+        "value": "Refreshes all feeds in FOLIO"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 189,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.RefreshFeedsIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.RefreshFeedsIntent>",
+              "valueKind": "RawLiteral",
+              "value": "Refresh all feeds"
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.GetFavoritesIntent",
+    "mangledTypeName": "5FOLIO18GetFavoritesIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 201,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ReturnsValue<Swift.Array<FOLIO.ArticleInfo>>",
+        "substitutedMangledTypeName": "5FOLIO18GetFavoritesIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.Array<FOLIO.ArticleInfo>",
+            "substitutedMangledTypeName": "Say5FOLIO11ArticleInfoVG"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO18GetFavoritesIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 206,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Articles"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 202,
+        "valueKind": "RawLiteral",
+        "value": "Get Favorites"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 203,
+        "valueKind": "RawLiteral",
+        "value": "Returns favorite articles from FOLIO"
+      },
+      {
+        "label": "limit",
+        "type": "Swift.Int",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 206,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Articles"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 205,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Number of Articles"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.Int>",
+                "valueKind": "RawLiteral",
+                "value": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 206,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 208,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.GetFavoritesIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.GetFavoritesIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Get "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$limit",
+                      "rootType": "FOLIO.GetFavoritesIntent",
+                      "components": [
+                        {
+                          "label": "$limit",
+                          "type": "AppIntents.IntentParameter<Swift.Int>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": " favorite articles"
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.SearchArticlesIntent",
+    "mangledTypeName": "5FOLIO20SearchArticlesIntentV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 235,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ReturnsValue<Swift.Array<FOLIO.ArticleInfo>>",
+        "substitutedMangledTypeName": "5FOLIO20SearchArticlesIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.Array<FOLIO.ArticleInfo>",
+            "substitutedMangledTypeName": "Say5FOLIO11ArticleInfoVG"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "5FOLIO20SearchArticlesIntentV16parameterSummaryQrvpZQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_query",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 240,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Search Query"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "_limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 243,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Results"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 236,
+        "valueKind": "RawLiteral",
+        "value": "Search Articles"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 237,
+        "valueKind": "RawLiteral",
+        "value": "Searches articles in FOLIO"
+      },
+      {
+        "label": "query",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 240,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Search Query"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 239,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Search Query"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$query",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 240,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "limit",
+        "type": "Swift.Int",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 243,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Number of Results"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "10"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+            "line": 242,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Number of Results"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.Int>",
+                "valueKind": "RawLiteral",
+                "value": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$limit",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 243,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "parameterSummary",
+        "type": "some AppIntents.ParameterSummary",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 245,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameterSummary<FOLIO.SearchArticlesIntent>",
+          "arguments": [
+            {
+              "label": "",
+              "type": "AppIntents.ParameterSummaryString<FOLIO.SearchArticlesIntent>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": "Search for "
+                  },
+                  {
+                    "valueKind": "KeyPath",
+                    "value": {
+                      "path": "$query",
+                      "rootType": "FOLIO.SearchArticlesIntent",
+                      "components": [
+                        {
+                          "label": "$query",
+                          "type": "AppIntents.IntentParameter<Swift.String>"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "table",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "",
+              "type": "() -> Swift.Array<Swift.PartialKeyPath<FOLIO.SearchArticlesIntent>>",
+              "valueKind": "Builder",
+              "value": {
+                "type": "",
+                "members": [
+                  {
+                    "kind": "buildExpression",
+                    "element": {
+                      "valueKind": "KeyPath",
+                      "value": {
+                        "path": "$limit",
+                        "rootType": "FOLIO.SearchArticlesIntent",
+                        "components": [
+                          {
+                            "label": "$limit",
+                            "type": "AppIntents.IntentParameter<Swift.Int>"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "FOLIO.FOLIOShortcuts",
+    "mangledTypeName": "5FOLIO14FOLIOShortcutsV",
+    "kind": "struct",
+    "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+    "line": 273,
+    "conformances": [
+      "AppIntents.AppShortcutsProvider",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppShortcutsProvider",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "FOLIO"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "FOLIO"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "appShortcuts",
+        "type": "Swift.Array<AppIntents.AppShortcut>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mauriello/Dev/folio-macos/Sources/Intents/FOLIOIntents.swift",
+        "line": 274,
+        "valueKind": "Builder",
+        "value": {
+          "type": "AppIntents.AppShortcutsBuilder",
+          "members": [
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "FOLIO.GetUnreadArticlesIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "FOLIO.GetUnreadArticlesIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<FOLIO.GetUnreadArticlesIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Get unread articles in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Show my "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": " unread articles"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "What am I reading in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                      "valueKind": "RawLiteral",
+                      "value": "Get Unread Articles"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.Optional<Swift.String>",
+                      "valueKind": "RawLiteral",
+                      "value": "newspaper"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "FOLIO.RefreshFeedsIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "FOLIO.RefreshFeedsIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<FOLIO.RefreshFeedsIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Refresh "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": " feeds"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Update feeds in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                      "valueKind": "RawLiteral",
+                      "value": "Refresh Feeds"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.Optional<Swift.String>",
+                      "valueKind": "RawLiteral",
+                      "value": "arrow.clockwise"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

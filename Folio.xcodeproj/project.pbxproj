@@ -10,6 +10,7 @@
 		013FA9C1884D511BE57769F4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE5199077D9FBD482E7F35 /* DatabaseManager.swift */; };
 		01B9C0D66E8897C77149E4F2 /* TagService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7836931BA9EFB5B4E36ED925 /* TagService.swift */; };
 		022136465132BA2E8A2C84C6 /* ImportOPMLSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6310A95C37FAD8D873103E5 /* ImportOPMLSheet.swift */; };
+		0972D11DD3335987840AA42F /* FolioR12R15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55104EAAE4EF7FE68136E285 /* FolioR12R15.swift */; };
 		0A137869A6D9839F51B2723E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE6AAD378492ABEC464D8F18 /* Kingfisher */; };
 		0C8D3F34D3C9EE50D0E28CF4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F43FCCCEB6F214331FE14 /* SidebarView.swift */; };
 		13D84A24E262777DC2D597C2 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE17C08A35661B433BA510C9 /* ArticleListViewModel.swift */; };
@@ -116,6 +117,7 @@
 		4C73C2B8465DACDADF9E035E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		508DD9B067248F6E982C5F70 /* FOLIOAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOLIOAppState.swift; sourceTree = "<group>"; };
 		53F7DDFE4E08C3857E3E56EE /* BackgroundRefreshService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshService.swift; sourceTree = "<group>"; };
+		55104EAAE4EF7FE68136E285 /* FolioR12R15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolioR12R15.swift; sourceTree = "<group>"; };
 		556F5F262B441646B2E3F49D /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
 		568009CE8A96502A0E1A6118 /* URLSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeHandler.swift; sourceTree = "<group>"; };
 		5694C1951966705099DE81F0 /* FilterRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterRule.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				229AE734CBF49FD92554CA59 /* Category.swift */,
 				C4FBD37837F5AF0DAC88E483 /* Feed.swift */,
 				5694C1951966705099DE81F0 /* FilterRule.swift */,
+				55104EAAE4EF7FE68136E285 /* FolioR12R15.swift */,
 				928CDE232BDDC5C3C0F38DF1 /* SharedFeed.swift */,
 				71D2C7AC5C7EE7952DD28F54 /* Tag.swift */,
 			);
@@ -483,6 +486,7 @@
 				802D9E6B174D0EE98DCA717B /* FeedbinService.swift in Sources */,
 				3F38AF6FCE521CE28DA7296F /* FeedlyService.swift in Sources */,
 				E25B21A67404DF864027A0A8 /* FilterRule.swift in Sources */,
+				0972D11DD3335987840AA42F /* FolioR12R15.swift in Sources */,
 				23CA3149CCB2E4AD2FB62FAB /* GlobalHotkeyService.swift in Sources */,
 				EDCC6FDEA36EBC3CB70EFCC2 /* ICloudSyncSettingsView.swift in Sources */,
 				022136465132BA2E8A2C84C6 /* ImportOPMLSheet.swift in Sources */,

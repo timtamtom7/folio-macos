@@ -1,0 +1,51 @@
+{
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/RulesEngine.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEngine.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEngine.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEngine.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEngine.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/RulesEngine.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/SQLiteArticleStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteArticleStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteArticleStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteArticleStore.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteArticleStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteArticleStore.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/SQLiteFeedStore.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteFeedStore.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteFeedStore.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteFeedStore.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteFeedStore.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SQLiteFeedStore.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/ShareService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ShareService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ShareService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ShareService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ShareService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/ShareService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/ViewModels/SettingsViewModel.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsViewModel.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsViewModel.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsViewModel.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsViewModel.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/SearchResultsView.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SearchResultsView.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SearchResultsView.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SearchResultsView.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SearchResultsView.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SearchResultsView.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/SettingsWindow/SettingsWindowController.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsWindowController.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsWindowController.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsWindowController.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsWindowController.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/SettingsWindowController.swiftdeps"
+  }
+}

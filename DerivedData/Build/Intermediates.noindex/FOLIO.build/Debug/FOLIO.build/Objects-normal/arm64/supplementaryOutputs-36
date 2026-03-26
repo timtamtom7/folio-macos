@@ -1,0 +1,58 @@
+{
+  "/Users/mauriello/Dev/folio-macos/Sources/App/MainWindowController.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MainWindowController.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MainWindowController.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MainWindowController.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MainWindowController.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MainWindowController.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/MenuBar/MenuBarExtra.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MenuBarExtra.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MenuBarExtra.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MenuBarExtra.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MenuBarExtra.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/MenuBarExtra.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/InstapaperService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/NotificationService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/NotificationService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/NotificationService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/NotificationService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/NotificationService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/NotificationService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/OPMLService.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/OPMLService.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/OPMLService.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/OPMLService.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/OPMLService.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/OPMLService.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Services/PluginManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PluginManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PluginManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PluginManager.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PluginManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/PluginManager.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/InstapaperImportSheet.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperImportSheet.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperImportSheet.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperImportSheet.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperImportSheet.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/InstapaperImportSheet.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/Sources/Views/KeyboardShortcutsOverlay.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/KeyboardShortcutsOverlay.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/KeyboardShortcutsOverlay.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/KeyboardShortcutsOverlay.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/KeyboardShortcutsOverlay.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/FOLIO.build/Debug/FOLIO.build/Objects-normal/arm64/KeyboardShortcutsOverlay.swiftdeps"
+  }
+}

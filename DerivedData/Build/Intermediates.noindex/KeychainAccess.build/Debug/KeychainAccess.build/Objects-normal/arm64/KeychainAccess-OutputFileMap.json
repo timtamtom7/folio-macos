@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/KeychainAccess-primary.dia",
+    "emit-module-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/KeychainAccess-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/KeychainAccess-primary-emit-module.dia",
+    "pch" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/KeychainAccess-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/KeychainAccess-primary.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/KeychainAccess/Lib/KeychainAccess/Keychain.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.dia",
+    "index-unit-output-path" : "/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.o",
+    "llvm-bc" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.bc",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain.swiftdeps",
+    "swiftmodule" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/KeychainAccess.build/Debug/KeychainAccess.build/Objects-normal/arm64/Keychain~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "keychainaccess",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+          "name" : "KeychainAccess"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+            "version" : "4.2.2"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "KeychainAccess"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "kingfisher",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/onevcat/Kingfisher",
+          "name" : "Kingfisher"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+            "version" : "7.12.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Kingfisher"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "sqlite.swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/stephencelis/SQLite.swift",
+          "name" : "SQLite.swift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "964c300fb0736699ce945c9edb56ecd62eba27a3",
+            "version" : "0.16.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SQLite.swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "swiftsoup",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/scinfu/SwiftSoup",
+          "name" : "SwiftSoup"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "e40910293caa6d94802e1a69b80517c88e77eaff",
+            "version" : "2.13.3"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SwiftSoup"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

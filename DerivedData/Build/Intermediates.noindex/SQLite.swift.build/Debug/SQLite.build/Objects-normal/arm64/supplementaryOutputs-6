@@ -1,0 +1,30 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/Connection+Schema.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Schema.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Schema.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Schema.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Schema.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Connection+Schema.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaChanger.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaChanger.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaChanger.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaChanger.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaChanger.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaChanger.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaDefinitions.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaDefinitions.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaDefinitions.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaDefinitions.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaDefinitions.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaDefinitions.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaReader.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaReader.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaReader.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaReader.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaReader.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/SchemaReader.swiftdeps"
+  }
+}

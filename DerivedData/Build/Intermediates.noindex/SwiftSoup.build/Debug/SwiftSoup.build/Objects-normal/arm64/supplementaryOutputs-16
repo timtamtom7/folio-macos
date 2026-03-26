@@ -1,0 +1,44 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/OrderedSet.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/OrderedSet.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/OrderedSet.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/OrderedSet.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/OrderedSet.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/OrderedSet.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/ParseError.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseError.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseError.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseError.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseError.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseError.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/ParseErrorList.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseErrorList.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseErrorList.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseErrorList.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseErrorList.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseErrorList.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/ParseSettings.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseSettings.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseSettings.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseSettings.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseSettings.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParseSettings.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/Parser.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Parser.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Parser.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Parser.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Parser.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/Parser.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SwiftSoup/Sources/ParsingStrings.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParsingStrings.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParsingStrings.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParsingStrings.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParsingStrings.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SwiftSoup.build/Debug/SwiftSoup.build/Objects-normal/arm64/ParsingStrings.swiftdeps"
+  }
+}

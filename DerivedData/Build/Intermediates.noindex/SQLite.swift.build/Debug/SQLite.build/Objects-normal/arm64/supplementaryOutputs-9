@@ -1,0 +1,23 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Operators.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Operators.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Operators.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Operators.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Operators.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Operators.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Query+with.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query+with.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query+with.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query+with.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query+with.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query+with.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Query.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/SQLite.swift.build/Debug/SQLite.build/Objects-normal/arm64/Query.swiftdeps"
+  }
+}

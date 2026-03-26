@@ -1,0 +1,51 @@
+{
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/General/Kingfisher.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Kingfisher.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Kingfisher.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Kingfisher.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Kingfisher.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Kingfisher.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherError.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherError.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherError.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherError.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherError.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherError.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherManager.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherManager.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherManager.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherManager.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherManager.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherManager.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/General/KingfisherOptionsInfo.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/KingfisherOptionsInfo.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/Filter.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Filter.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Filter.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Filter.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Filter.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/Filter.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/GIFAnimatedImage.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GIFAnimatedImage.swiftdeps"
+  },
+  "/Users/mauriello/Dev/folio-macos/DerivedData/SourcePackages/checkouts/Kingfisher/Sources/Image/GraphicsContext.swift" : {
+    "const-values" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GraphicsContext.swiftconstvalues",
+    "dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GraphicsContext.d",
+    "diagnostics" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GraphicsContext.dia",
+    "object" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GraphicsContext.o",
+    "swift-dependencies" : "/Users/mauriello/Dev/folio-macos/DerivedData/Build/Intermediates.noindex/Kingfisher.build/Debug/Kingfisher.build/Objects-normal/arm64/GraphicsContext.swiftdeps"
+  }
+}

@@ -1,0 +1,24 @@
+Target dependency graph (11 targets)
+Target 'FOLIO' in project 'FOLIO'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'SwiftSoup' in project 'SwiftSoup'
+➜ Explicit dependency on target 'KeychainAccess' in project 'KeychainAccess'
+Target 'KeychainAccess' in project 'KeychainAccess'
+➜ Explicit dependency on target 'KeychainAccess' in project 'KeychainAccess'
+Target 'KeychainAccess' in project 'KeychainAccess' (no dependencies)
+Target 'SwiftSoup' in project 'SwiftSoup'
+➜ Explicit dependency on target 'SwiftSoup' in project 'SwiftSoup'
+Target 'SwiftSoup' in project 'SwiftSoup' (no dependencies)
+Target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher_Kingfisher' in project 'Kingfisher'
+Target 'Kingfisher' in project 'Kingfisher'
+➜ Explicit dependency on target 'Kingfisher_Kingfisher' in project 'Kingfisher'
+Target 'Kingfisher_Kingfisher' in project 'Kingfisher' (no dependencies)
+Target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite.swift_SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite.swift_SQLite' in project 'SQLite.swift'
+Target 'SQLite.swift_SQLite' in project 'SQLite.swift' (no dependencies)

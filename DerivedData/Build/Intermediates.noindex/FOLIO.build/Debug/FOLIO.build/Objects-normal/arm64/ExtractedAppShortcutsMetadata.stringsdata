@@ -1,0 +1,54 @@
+{
+  "source" : "\/Users\/mauriello\/Dev\/folio-macos\/Sources\/Intents\/FOLIOIntents.swift",
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "key" : "Get unread articles in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 274
+        },
+        "values" : [
+          "Get unread articles in ${applicationName}",
+          "Show my ${applicationName} unread articles",
+          "What am I reading in ${applicationName}"
+        ]
+      },
+      {
+        "key" : "Refresh ${applicationName} feeds",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 274
+        },
+        "values" : [
+          "Refresh ${applicationName} feeds",
+          "Update feeds in ${applicationName}"
+        ]
+      }
+    ],
+    "Localizable" : [
+      {
+        "key" : "Add feed: ${feedURL}"
+      },
+      {
+        "key" : "Get ${limit} favorite articles"
+      },
+      {
+        "key" : "Get ${limit} unread articles"
+      },
+      {
+        "key" : "Mark article as read: ${articleURL}"
+      },
+      {
+        "key" : "Mark article as unread: ${articleURL}"
+      },
+      {
+        "key" : "Refresh all feeds"
+      },
+      {
+        "key" : "Search for ${query}"
+      }
+    ]
+  },
+  "version" : 1
+}
