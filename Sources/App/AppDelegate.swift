@@ -10,6 +10,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         DatabaseManager.shared.setup()
         mainWindowController = MainWindowController()
         mainWindowController?.showWindow(nil)
+        FolioAPIService.shared.start()
 
         NSApp.setActivationPolicy(.regular)
         NSApp.activate(ignoringOtherApps: true)
@@ -34,7 +35,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
-    func applicationWillTerminate(_ notification: Notification) {}
+    func applicationWillTerminate(_ notification: Notification) {
+        FolioAPIService.shared.stop()
+    }
 
     private func setupMenu() {
         let mainMenu = NSMenu()

@@ -1,4 +1,5 @@
 import Foundation
+import Combine
 
 // MARK: - Folio R12: Collaboration & Document Sharing
 
