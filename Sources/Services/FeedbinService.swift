@@ -97,7 +97,12 @@ final class FeedbinService: ObservableObject {
         // Store starred state locally
         let articleStore = SQLiteArticleStore()
         for star in starred {
-            // Mark articles with matching URL as favorites
+            // Feedbin starred.json doesn't return URLs - only entry IDs.
+            // We need the entry's URL to find the matching local article.
+            // For a proper implementation, we'd need to call /entries/{id} for each starred entry
+            // or use a different approach. For now, log the limitation.
+            _ = articleStore
+            _ = star
         }
 
         await MainActor.run {

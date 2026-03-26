@@ -85,21 +85,17 @@ final class InstapaperService {
     }
 
     func addBookmark(url: URL, title: String?, username: String, password: String) async throws {
-        guard var urlComponents = URLComponents(url: baseURL.appendingPathComponent("bookmarks/add"), resolvingAgainstBaseURL: false) else {
+        guard let reqUrl = URL(string: "\(baseURL)/bookmarks/add") else {
             throw InstapaperError.invalidURL
         }
-        urlComponents.queryItems = [
-            URLQueryItem(name: "url", value: url.absoluteString),
-            URLQueryItem(name: "title", value: title ?? "")
-        ]
-        guard let url = urlComponents.url else { throw InstapaperError.invalidURL }
 
-        var request = URLRequest(url: url)
+        var request = URLRequest(url: reqUrl)
         request.httpMethod = "POST"
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         let loginString = "\(username):\(password)"
-        if let loginData = loginString.data(using: .utf8) {
-            request.setValue("Basic \(loginData.base64EncodedString())", forHTTPHeaderField: "Authorization")
-        }
+        request.setValue("Basic \(loginString.data(using: .utf8)!.base64EncodedString())", forHTTPHeaderField: "Authorization")
+        let body = "url=\((url.absoluteString).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&title=\((title ?? "").addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")"
+        request.httpBody = body.data(using: .utf8)
 
         let (_, response) = try await URLSession.shared.data(for: request)
 
