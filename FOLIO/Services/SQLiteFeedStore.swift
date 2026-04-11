@@ -54,9 +54,13 @@ class SQLiteFeedStore {
         var result: [Feed] = []
         do {
             for row in try db.prepare(feeds) {
+                guard let feedUrl = URL(string: row[feedUrl]) else {
+                    print("Warning: skipping feed with invalid URL: \(row[feedUrl])")
+                    continue
+                }
                 let feed = Feed(
                     id: UUID(uuidString: row[feedId]) ?? UUID(),
-                    url: URL(string: row[feedUrl])!,
+                    url: feedUrl,
                     title: row[feedTitle],
                     siteUrl: row[feedSiteUrl].flatMap { URL(string: $0) },
                     iconUrl: row[feedIconUrl].flatMap { URL(string: $0) },

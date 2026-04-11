@@ -78,11 +78,15 @@ class SQLiteArticleStore {
         var result: [Article] = []
         do {
             for row in try db.prepare(query) {
+                guard let articleUrl = URL(string: row[artUrl]) else {
+                    print("Warning: skipping article with invalid URL: \(row[artUrl])")
+                    continue
+                }
                 let article = Article(
                     id: UUID(uuidString: row[artId]) ?? UUID(),
                     feedId: UUID(uuidString: row[artFeedId]) ?? UUID(),
                     title: row[artTitle],
-                    url: URL(string: row[artUrl])!,
+                    url: articleUrl,
                     author: row[artAuthor],
                     summary: row[artSummary],
                     content: row[artContent],
