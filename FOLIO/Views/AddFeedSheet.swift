@@ -26,7 +26,7 @@ struct AddFeedSheet: View {
 
             // URL field
             VStack(alignment: .leading, spacing: 4) {
-                Text("Feed URL")
+                Text("RSS or Atom Feed URL")
                     .font(.caption)
                     .foregroundColor(.secondary)
                 TextField("https://example.com/feed.xml", text: $feedUrl)

@@ -22,11 +22,13 @@ struct FeedDiscoverySheet: View {
             HStack {
                 TextField("Enter website URL", text: $viewModel.websiteURL)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityLabel("Website URL to discover feeds")
                 Button("Discover") {
                     viewModel.discoverFeeds()
                 }
                 .buttonStyle(.borderedProminent)
                 .disabled(viewModel.isDiscovering || viewModel.websiteURL.isEmpty)
+                .accessibilityLabel("Discover RSS feeds")
             }
             .padding()
             

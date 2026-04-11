@@ -38,11 +38,14 @@ struct ArticleRowView: View {
                     Circle()
                         .fill(article.isRead ? Color.clear : Color.accentColor)
                         .frame(width: 8, height: 8)
+                        .accessibilityHidden(true)
 
                     Text(article.title)
                         .font(.system(size: 14, weight: article.isRead ? .regular : .semibold))
                         .foregroundColor(article.isRead ? .secondary : .primary)
                         .lineLimit(2)
+                        .accessibilityLabel("\(article.title), \(article.isRead ? "read" : "unread")")
+                        .accessibilityValue(article.author ?? "Unknown Feed")
 
                     Spacer()
 

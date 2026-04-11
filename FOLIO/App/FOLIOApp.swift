@@ -28,7 +28,8 @@ struct FOLIOApp: App {
             MenuBarExtraView()
                 .environmentObject(appState)
         } label: {
-            Label("\(appState.unreadCount)", systemImage: "newspaper.fill")
+            Label("FOLIO, \(appState.unreadCount) unread", systemImage: "newspaper.fill")
+                .accessibilityLabel("FOLIO, \(appState.unreadCount) unread articles")
         }
     }
 }

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct Theme {
+    // MARK: - Color
     static let accentColor = Color(hex: "#4A90D9")
     static let unreadColor = Color.blue
     static let favoriteColor = Color.orange
@@ -10,9 +11,15 @@ struct Theme {
     static let articleListBackground = Color(nsColor: .windowBackgroundColor)
     static let readerBackground = Color(nsColor: .textBackgroundColor)
 
+    // MARK: - Typography
     static let fontTitle = Font.headline
     static let fontBody = Font.body
     static let fontCaption = Font.caption
+
+    // MARK: - Corner Radius
+    static let cornerRadiusSmall: CGFloat = 6
+    static let cornerRadiusMedium: CGFloat = 8
+    static let cornerRadiusLarge: CGFloat = 12
 }
 
 extension Color {

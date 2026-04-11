@@ -15,12 +15,14 @@ struct AddFeedSheet: View {
                 .font(.headline)
 
             Form {
-                TextField("Feed URL", text: $feedUrl)
+                TextField("RSS or Atom Feed URL", text: $feedUrl)
                     .textFieldStyle(.roundedBorder)
                     .autocorrectionDisabled()
+                    .accessibilityLabel("Feed URL")
 
                 TextField("Title (optional)", text: $feedTitle)
                     .textFieldStyle(.roundedBorder)
+                    .accessibilityLabel("Feed title")
 
                 Picker("Category", selection: $selectedCategory) {
                     Text("None").tag(nil as Category?)
