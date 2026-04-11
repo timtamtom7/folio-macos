@@ -20,6 +20,7 @@ struct KeyboardShortcutsOverlay: View {
                             .foregroundColor(.secondary)
                     }
                     .buttonStyle(.plain)
+                    .keyboardShortcut(.cancelAction)
                 }
 
                 HStack(alignment: .top, spacing: 40) {

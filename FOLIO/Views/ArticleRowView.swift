@@ -48,6 +48,8 @@ struct ArticleRowView: View {
                         .foregroundColor(article.isRead ? .secondary : .primary)
                         .lineLimit(2)
                         .multilineTextAlignment(.leading)
+                        .accessibilityLabel("\(article.title), \(article.isRead ? "read" : "unread")")
+                        .accessibilityValue(feed?.title ?? "Unknown feed")
                 }
 
                 // Feed name and date

@@ -55,7 +55,7 @@ struct ArticleListView: View {
             .overlay {
                 if articleListVM.articles.isEmpty {
                     EmptyStateView(
-                        title: "No Articles",
+                        title: "No articles",
                         systemImage: "newspaper",
                         description: "Add a feed to get started"
                     )
