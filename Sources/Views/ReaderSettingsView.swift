@@ -56,10 +56,10 @@ struct ReaderSettingsView: View {
         }
         .padding()
         .frame(width: 300)
-        .onChange(of: viewModel.readerWidth) { _, _ in viewModel.save() }
-        .onChange(of: viewModel.readerFont) { _, _ in viewModel.save() }
-        .onChange(of: viewModel.readerFontSize) { _, _ in viewModel.save() }
-        .onChange(of: viewModel.readerTheme) { _, _ in viewModel.save() }
+        .onChange(of: viewModel.readerWidth) { _ in viewModel.save() }
+        .onChange(of: viewModel.readerFont) { _ in viewModel.save() }
+        .onChange(of: viewModel.readerFontSize) { _ in viewModel.save() }
+        .onChange(of: viewModel.readerTheme) { _ in viewModel.save() }
     }
 }
 

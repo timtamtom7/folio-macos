@@ -64,13 +64,13 @@ struct ArticleListView: View {
         }
         .frame(minWidth: 350)
         .searchable(text: $searchText, prompt: "Search articles")
-        .onChange(of: appState.selectedFeed) { _, newFeed in
+        .onChange(of: appState.selectedFeed) { newFeed in
             articleListVM.loadArticles(for: newFeed, filter: filterMode)
         }
-        .onChange(of: appState.selectedCategory) { _, newCategory in
+        .onChange(of: appState.selectedCategory) { newCategory in
             articleListVM.loadArticles(forFeed: nil, category: newCategory, filter: filterMode)
         }
-        .onChange(of: filterMode) { _, newMode in
+        .onChange(of: filterMode) { newMode in
             if let feed = appState.selectedFeed {
                 articleListVM.loadArticles(for: feed, filter: newMode)
             } else {
